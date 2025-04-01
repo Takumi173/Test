@@ -3,541 +3,627 @@
 ## 1. 症例サマリー
 
 *   **患者背景:**
-    77歳、男性、人種: WHITE、民族: NOT HISPANIC OR LATINO。本試験のXanomeline High Dose群に割り付けられた。
+    77歳、男性、人種: WHITE、民族: NOT HISPANIC OR LATINO。 (DM.AGE=77, DM.SEX=M, DM.RACE=WHITE, DM.ETHNIC=NOT HISPANIC OR LATINO)
 
 *   **イベント推移:**
-    *   2011年03月27日 (Day 不明): 既往歴としてアルツハイマー病発症 (MH.MHTERM = 'ALZHEIMER\'S DISEASE', MH.MHSTDTC = '2011-03-27')
-    *   2000年 (Day 不明): アスピリン (81mg/日) 服用開始 (CM.CMTRT = 'ASPIRIN', CM.CMSTDTC = '2000')
-    *   2000年05月15日 (Day 不明): 既往歴として心筋梗塞発症 (MH.MHTERM = 'HEART ATTACK', MH.MHSTDTC = '2000-05-15')
-    *   2006年12月16日 (Day 不明): 既往歴として冠動脈バイパス術施行 (MH.MHTERM = 'TRIPLE VESSEL BYPASS GRAFT', MH.MHSTDTC = '2006-12-16')
-    *   2013年09月20日 (Day -16): スクリーニング来院 (Visit 1)。
-        *   クレアチニン値が基準値上限超 (1.8 mg/dL, 基準範囲 0.8-1.6) (LB.LBTESTCD = 'CREAT', LB.LBORRES = '1.8', LB.LBNRIND = 'HIGH')。
-        *   MMSEスコア 21点 (QS.QSTESTCD = 'MMITM01'-'MMITM06')。
-        *   Hachinski Ischemic Scaleスコア 0点 (QS.QSTESTCD = 'MHITM01'-'MHITM13')。
-        *   複数の心血管系既往歴あり (MH)。
-    *   2013年10月06日 (Day 1): ベースライン来院 (Visit 3)。
-        *   治験薬Xanomeline 54 mgパッチ投与開始 (EX.EXTRT = 'XANOMELINE', EX.EXDOSE = 54, EX.EXSTDY = 1)。
-        *   Premarin (エストロゲン製剤) 0.625 mg 隔日投与開始 (CM.CMTRT = 'PREMARIN', CM.CMSTDY = 1)。
-        *   ADAS-Cog(11) Total Score 27点 (QS.QSTESTCD = 'ACTOT', QS.QSSTRESN = 27)。
-        *   NPI-X Total Score 61点 (QS.QSTESTCD = 'NPTOT', QS.QSSTRESN = 61)。
-    *   2013年10月19日 (Day 14): Week 2 来院 (Visit 4)。
-        *   治験薬Xanomeline 54 mgパッチ投与終了 (EX.EXENDY = 14)。
-        *   有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」(重症度: SEVERE) 発現 (AE.AETERM, AESEQ=4, AESTDY=14)。
-        *   有害事象「MYOCARDIAL INFARCTION」(重症度: MILD) 発現。治験薬中止措置 (AE.AETERM, AESEQ=1, AESTDY=14, AEACN='DRUG WITHDRAWN')。
-        *   有害事象「VENTRICULAR SEPTAL DEFECT」(重症度: MILD) 発現 (AE.AETERM, AESEQ=2, AESTDY=14)。
-        *   アルブミン値が基準値下限未満 (3.3 g/dL, 基準範囲 3.5-4.6) (LB.LBTESTCD = 'ALB', LB.LBORRES = '3.3', LB.LBNRIND = 'LOW')。
-        *   BUN値が基準値上限超 (29 mg/dL, 基準範囲 4-24) (LB.LBTESTCD = 'BUN', LB.LBORRES = '29', LB.LBNRIND = 'HIGH')。
-        *   クレアチニン値は正常範囲内 (1.6 mg/dL) に改善 (LB.LBTESTCD = 'CREAT', LB.LBORRES = '1.6', LB.LBNRIND = 'NORMAL')。
-        *   NPI-X Total Score 22点 (QS.QSTESTCD = 'NPTOT', QS.QSSTRESN = 22)。
-    *   2013年10月20日 (Day 15): 治験薬Xanomeline 81 mgパッチ投与開始 (EX.EXTRT = 'XANOMELINE', EX.EXDOSE = 81, EX.EXSTDY = 15)。
-    *   2013年10月29日 (Day 24): Premarin投与終了 (CM.CMENDY = 24)。
-    *   2013年11月01日 (Day 27): Week 4 の臨床検査実施。
-        *   アルブミン値が基準値下限未満 (3.4 g/dL) (LB.LBTESTCD = 'ALB', LB.LBORRES = '3.4', LB.LBNRIND = 'LOW')。
-        *   BUN値は正常範囲内 (23 mg/dL) に改善 (LB.LBTESTCD = 'BUN', LB.LBORRES = '23', LB.LBNRIND = 'NORMAL')。
-        *   Dispositionとして「FINAL LAB VISIT」が記録 (DS.DSDECOD = 'FINAL LAB VISIT', DS.DSSTDY = 27)。
-    *   2013年11月05日 (Day 31):
-        *   有害事象「PRURITUS」(重症度: MILD, 関連性: PROBABLE) 発現 (AE.AETERM, AESEQ=6, AESTDY=31)。
-        *   有害事象「RASH」(重症度: MILD, 関連性: PROBABLE) 発現 (AE.AETERM, AESEQ=5, AESTDY=31)。
-    *   2013年11月06日 (Day 32): Hydrocortisone Topical投与開始 (CM.CMTRT = 'HYDROCORTISONE, TOPICAL', CM.CMSTDY = 32)。
-    *   2013年11月09日 (Day 35): Week 4 来院 (Visit 5)。
-        *   NPI-X Total Score 38点 (QS.QSTESTCD = 'NPTOT', QS.QSSTRESN = 38)。
-    *   2013年11月18日 (Day 44):
-        *   治験薬Xanomeline 81 mgパッチ投与終了 (EX.EXENDY = 44)。
-        *   有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」終了 (AE.AEENDY = 44)。
-        *   有害事象「BRAIN DEATH」(重症度: SEVERE) 発現および同日終了 (AE.AETERM, AESEQ=3, AESTDY=44, AEENDY=44)。転帰は「RECOVERED/RESOLVED」と記録。
-    *   2013年11月19日 (Day 45): 有害事象「MYOCARDIAL INFARCTION」終了 (AE.AEENDY = 45)。転帰は「RECOVERED/RESOLVED」と記録。
-    *   2013年11月22日 (Day 48):
-        *   有害事象「PRURITUS」終了 (AE.AEENDY = 48)。
-        *   有害事象「RASH」終了 (AE.AEENDY = 48)。
-        *   Hydrocortisone Topical投与終了 (CM.CMENDY = 48)。
-    *   2013年11月24日 (Day 50): Week 6 来院 (Visit 7)。
-        *   ADAS-Cog(11) Total Score 30点 (QS.QSTESTCD = 'ACTOT', QS.QSSTRESN = 30)。
-        *   NPI-X Total Score 16点 (QS.QSTESTCD = 'NPTOT', QS.QSSTRESN = 16)。
-        *   有害事象により試験中止 (DS.DSDECOD = 'ADVERSE EVENT', DS.DSSTDY = 50)。
-    *   2013年12月06日 (Day 62): AE Follow-up 来院 (Visit 101)。
+    *   2013年09月20日 (Day -16): スクリーニング。ベースライン検査実施。クレアチニンが高値 (LB.LBTESTCD='CREAT', LBSTRESC=159.12 umol/L, LBNRIND='HIGH')。既往歴としてアルツハイマー病、心血管系疾患（心筋梗塞、CABG等）あり (MH)。
+    *   2013年10月06日 (Day 1): 治験薬 Xanomeline 54mg/日 投与開始 (EX.EXTRT='XANOMELINE', EXDOSE=54, EXSTDY=1)。ベースライン有効性評価実施 (QS)。ADAS-Cog(11) 27点、NPI-X Total 61点。併用薬 Premarin 投与開始 (CM.CMTRT='PREMARIN', CMSTDY=1)。
+    *   2013年10月19日 (Day 14): 有害事象「MYOCARDIAL INFARCTION」(Mild) 発現 (AE.AETERM='MYOCARDIAL INFARCTION', AESEV='MILD', AESTDY=14)。有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」(Severe) 発現 (AE.AETERM='LATE EFFECTS OF CEREBRAL INFARCTION', AESEV='SEVERE', AESTDY=14)。有害事象「VENTRICULAR SEPTAL DEFECT」(Mild) 発現 (AE.AETERM='VENTRICULAR SEPTAL DEFECT', AESEV='MILD', AESTDY=14)。BUNが一過性に高値 (LB.LBTESTCD='BUN', LBNRIND='HIGH')。アルブミンが低値 (LB.LBTESTCD='ALB', LBNRIND='LOW')。NPI-X評価実施 (QS.QSDY=14)。
+    *   2013年10月20日 (Day 15): 治験薬 Xanomeline 81mg/日 に増量 (EX.EXTRT='XANOMELINE', EXDOSE=81, EXSTDY=15)。
+    *   2013年10月29日 (Day 24): 併用薬 Premarin 投与終了 (CM.CMTRT='PREMARIN', CMENDY=24)。
+    *   2013年11月01日 (Day 27): 検査実施。アルブミンが低値継続 (LB.LBTESTCD='ALB', LBNRIND='LOW')。BUNは正常化。クレアチニンは正常範囲内。
+    *   2013年11月05日 (Day 31): 有害事象「RASH」(Mild) 発現 (AE.AETERM='RASH', AESEV='MILD', AESTDY=31)。有害事象「PRURITUS」(Mild) 発現 (AE.AETERM='PRURITUS', AESEV='MILD', AESTDY=31)。いずれも治験薬との関連性は Probable。
+    *   2013年11月06日 (Day 32): 併用薬 Hydrocortisone topical 投与開始 (CM.CMTRT='HYDROCORTISONE, TOPICAL', CMSTDY=32)。
+    *   2013年11月09日 (Day 35): NPI-X評価実施 (QS.QSDY=35)。
+    *   2013年11月18日 (Day 44): 有害事象「BRAIN DEATH」(Severe) 発現 (AE.AETERM='BRAIN DEATH', AESEV='SEVERE', AESTDY=44)。有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」終了 (AEENDY=44)。治験薬 Xanomeline 投与終了 (EX.EXENDY=44)。
+    *   2013年11月19日 (Day 45): 有害事象「MYOCARDIAL INFARCTION」終了 (AEENDY=45)。
+    *   2013年11月22日 (Day 48): 有害事象「RASH」「PRURITUS」終了 (AEENDY=48)。併用薬 Hydrocortisone topical 投与終了 (CMENDY=48)。
+    *   2013年11月24日 (Day 50): Week 6 有効性評価実施 (QS)。ADAS-Cog(11) 30点 (ベースラインから3点悪化)、CIBIC+ 4 (No Change)、NPI-X Total 16点 (ベースラインから改善)。有害事象「BRAIN DEATH」終了 (AEOUT='RECOVERED/RESOLVED', AEENDY=44)。治験中止 (DS.DSDECOD='ADVERSE EVENT', DSSTDY=50)。
+    *   2013年12月06日: AEフォローアップ Visit (SV.VISIT='AE FOLLOW-UP')。
 
 ## 2. 統合レビュー結果
 
 *   **医学的観点からの指摘事項:**
     *   **指摘No.:** M-1
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **内容:** 有害事象「MYOCARDIAL INFARCTION」(心筋梗塞) の重症度が「MILD」、重篤度が「N」(非重篤) と報告されている。心筋梗塞は通常、重篤な有害事象 (SAE) として扱われるべきであり、評価が不適切である可能性が高い。また、治験薬中止の措置が取られているにも関わらず、治験薬との関連性が「NONE」(なし) と評価されている点も医学的に疑問が残る。既往歴に心筋梗塞があるため、再発の可能性も考慮されるが、評価の一貫性が欠けている。
-        *   **根拠:** AE.AETERM = 'MYOCARDIAL INFARCTION', AE.AESEQ = 1, AE.AESEV = 'MILD', AE.AESER = 'N', AE.AEACN = 'DRUG WITHDRAWN', AE.AEREL = 'NONE', AE.AESTDY = 14; MH.MHTERM = 'HEART ATTACK', MH.MHSTDTC = '2000-05-15'; プロトコル 3.9.3.2.2 Serious Adverse Events 定義
+        *   **重要度:** Critical
+        *   **内容:** ベースラインのクレアチニン値が基準値上限を超えて高値 (LB.LBTESTCD='CREAT', LBSTRESC=159.12 umol/L, LBSTNRHI=141)。プロトコル除外基準 EXCL27b (Laboratory test values exceeding the Lilly Reference Range III for the patient’s age in ... creatinine) に抵触する可能性がある。Reference Range III の具体的な閾値は不明だが、腎機能低下が示唆され、治験参加の適格性に疑義がある。
+        *   **根拠:** LB.LBTESTCD='CREAT', LB.VISITNUM=1, LBSTRESC=159.12, LBSTNRHI=141, LBNRIND='HIGH'; Protocol Section 3.4.2.2 [27b]
     *   **指摘No.:** M-2
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **内容:** 有害事象「BRAIN DEATH」(脳死) の転帰が「RECOVERED/RESOLVED」(回復/軽快) と報告されている。脳死からの回復は医学的にありえず、報告内容に重大な誤りがある。また、重篤度も「N」(非重篤) となっている点も不適切。事象名、重篤度、転帰の報告が根本的に誤っている可能性が高い。
-        *   **根拠:** AE.AETERM = 'BRAIN DEATH', AE.AESEQ = 3, AE.AESEV = 'SEVERE', AE.AESER = 'N', AE.AEOUT = 'RECOVERED/RESOLVED', AE.AESTDY = 44, AE.AEENDY = 44
+        *   **重要度:** Critical
+        *   **内容:** 重篤と考えられる有害事象（LATE EFFECTS OF CEREBRAL INFARCTION (Severe), BRAIN DEATH (Severe)）が報告されているにも関わらず、重篤性フラグ (AESER) が全て "N" (非重篤) となっている。プロトコル 3.9.3.2.2 の Serious Adverse Event の定義（生命を脅かす、入院、永続的な障害など）に基づくと、これらの事象は重篤に該当する可能性が高い。重篤性の評価が不適切である可能性があり、規制当局への報告義務にも影響する。
+        *   **根拠:** AE.AETERM='LATE EFFECTS OF CEREBRAL INFARCTION', AE.AESEV='SEVERE', AE.AESER='N'; AE.AETERM='BRAIN DEATH', AE.AESEV='SEVERE', AE.AESER='N'; Protocol Section 3.9.3.2.2
     *   **指摘No.:** M-3
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** 有害事象「VENTRICULAR SEPTAL DEFECT」(心室中隔欠損症) が報告されている。これは通常先天性疾患であり、成人で有害事象として発現することは考えにくい。既往歴(MH)にも記載がなく、Day 14に発現したとされている点も不自然。報告の妥当性を確認する必要がある。
-        *   **根拠:** AE.AETERM = 'VENTRICULAR SEPTAL DEFECT', AE.AESEQ = 2, AE.AESTDY = 14
+        *   **重要度:** Major
+        *   **内容:** 併用薬 Premarin (ESTROGENS CONJUGATED) の投与開始日 (CMSTDTC=2013-10-06) が治験薬開始日 (DM.RFSTDTC=2013-10-06) と同日であり、プロトコル 3.4.2.2 [31b] v) で要求されている「投与量が少なくとも3ヶ月間安定していること」という条件を満たしていない可能性がある。
+        *   **根拠:** CM.CMTRT='PREMARIN', CMSTDTC='2013-10-06'; DM.RFSTDTC='2013-10-06'; Protocol Section 3.4.2.2 [31b] v)
     *   **指摘No.:** M-4
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** 有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」が報告されている。事象名として一般的ではなく、AEDECODは「CEREBRAL INFARCTION」(脳梗塞) となっている。発症日(Day 14)は治験薬開始後であり、重症度はSEVEREとされている。転帰はNOT RECOVERED/NOT RESOLVEDだが終了日(Day 44)が記録されている。事象名の定義、重症度評価、転帰と終了日の整合性について確認が必要。
-        *   **根拠:** AE.AETERM = 'LATE EFFECTS OF CEREBRAL INFARCTION', AE.AEDECOD = 'CEREBRAL INFARCTION', AE.AESEQ = 4, AE.AESEV = 'SEVERE', AE.AEOUT = 'NOT RECOVERED/NOT RESOLVED', AE.AESTDY = 14, AE.AEENDY = 44
+        *   **重要度:** Major
+        *   **内容:** 有害事象「MYOCARDIAL INFARCTION」(AESEQ=1, AESTDY=14) が Mild と報告されているが、MH に心筋梗塞の既往歴があり、本症例は心血管リスクが高い。Mild という重症度評価、および治験薬との関連性評価 (AEREL=NONE) が妥当か、医学的に慎重な評価が必要。また、この AE により治験薬が中止された (AEACN=DRUG WITHDRAWN) と記録されているが、実際の投与は Day 44 まで継続されており矛盾がある (D-1参照)。
+        *   **根拠:** AE.AETERM='MYOCARDIAL INFARCTION', AESEV='MILD', AEREL='NONE', AEACN='DRUG WITHDRAWN', AESTDY=14; MH.MHDECOD='MYOCARDIAL INFARCTION'; EX.EXENDY=44
     *   **指摘No.:** M-5
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 治験薬投与開始後、血圧および脈拍の低下傾向が認められる (例: Day 14 立位3分後 SYSBP=104, DIABP=56; Day 50 立位3分後 SYSBP=112, DIABP=56)。Xanomelineはムスカリン作動薬であり、心血管系への影響 (徐脈、血圧低下) が知られている。患者は高齢で心血管系の既往歴も複数有するため、これらの変動は臨床的に注意が必要。ただし、明らかな症候性低血圧等の報告はない。
-        *   **根拠:** VSドメインデータ (SYSBP, DIABP, PULSE); MHドメインデータ (心血管系既往歴); 一般的な医学知識 (ムスカリン作動薬の作用)
+        *   **重要度:** Minor
+        *   **内容:** 有害事象「VENTRICULAR SEPTAL DEFECT」(AESEQ=2, AESTDY=14) が報告されている。これは通常先天性疾患であり、77歳男性で新規に発現・診断されることは考えにくい。報告内容（事象名、発現日）の妥当性に疑義がある。MH に関連記載はない。
+        *   **根拠:** AE.AETERM='VENTRICULAR SEPTAL DEFECT', AESTDY=14; DM.AGE=77, DM.SEX=M
+    *   **指摘No.:** M-6
+        *   **重要度:** Minor
+        *   **内容:** 治験薬投与中に血圧低下傾向が認められる (例: Day 1 立位 SYSBP 120-130 mmHg → Day 14 立位 SYSBP 104-106 mmHg)。Xanomeline はコリン作動薬であり、血圧低下は薬理作用として想定されうる。一般的な医学的知見に基づくと、起立性低血圧等のリスクに注意が必要だが、記録されている値自体は必ずしも異常とは言えない。
+        *   **根拠:** VS.VSTESTCD='SYSBP', VSPOS='STANDING', VSSTRESN (Day 1 vs Day 14, 35, 50)
 
 *   **データ整合性観点からの指摘事項:**
     *   **指摘No.:** D-1
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 有害事象「RASH」(AESEQ=5, 7) および「PRURITUS」(AESEQ=6, 8) について、同一事象に対するレコードが重複しているように見える。開始日、終了日、事象名は一致しているが、AESEQ、AEDTC、AEOUTが異なるレコードが存在する (例: AESEQ=5のAEOUTは'NOT RECOVERED/NOT RESOLVED'、AESEQ=7のAEOUTは'RECOVERED/RESOLVED')。データ入力エラーの可能性が高い。
-        *   **根拠:** AE.AETERM = 'RASH', AE.AESEQ = 5, 7, AE.AESTDY = 31, AE.AEENDY = 48; AE.AETERM = 'PRURITUS', AE.AESEQ = 6, 8, AE.AESTDY = 31, AE.AEENDY = 48; RELRECドメインデータ
+        *   **重要度:** Major
+        *   **内容:** AE ドメインで「MYOCARDIAL INFARCTION」(AESEQ=1) に対する治験薬の処置 (AEACN) が "DRUG WITHDRAWN" と記録されているが、EX ドメインでは治験薬 (Xanomeline) が Day 44 まで投与継続されている (EXENDY=44)。AEACN の記録と実際の投与状況が矛盾している。
+        *   **根拠:** AE.AESEQ=1, AEACN='DRUG WITHDRAWN'; EX.USUBJID='01-704-1017', EXENDY=44
     *   **指摘No.:** D-2
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** Dispositionドメインに、中止理由(DSSEQ=1, DSDECOD='ADVERSE EVENT')とは別に、「FINAL LAB VISIT」(DSSEQ=2, DSDECOD='FINAL LAB VISIT', DSSTDY=27) が記録されている。通常、Dispositionドメインには試験完了、中止理由、または主要なマイルストーンが記録されるが、「最終検査来院」がDispositionイベントとして記録されるのは一般的ではない。記録の意図と妥当性を内部で確認する必要がある。
-        *   **根拠:** DS.DSDECOD = 'FINAL LAB VISIT', DS.DSSEQ = 2, DS.DSSTDY = 27; SDTM IG for DS domain
+        *   **重要度:** Minor
+        *   **内容:** 有害事象「RASH」(AESEQ=5, 7) および「PRURITUS」(AESEQ=6, 8) が、それぞれ同一のイベントに対して重複して記録されているように見える。AESTDY, AEENDY は同一だが、AEOUT (転帰) が異なっている (NOT RECOVERED/NOT RESOLVED vs RECOVERED/RESOLVED)。RELREC でも関連付けられている (RELID=01-704-1017-E11)。データの更新・管理方法に問題がある可能性。
+        *   **根拠:** AE.AESEQ=5, 7 (AETERM='RASH', AESTDY=31, AEENDY=48, AEOUT='NOT RECOVERED/NOT RESOLVED' vs 'RECOVERED/RESOLVED'); AE.AESEQ=6, 8 (AETERM='PRURITUS', AESTDY=31, AEENDY=48, AEOUT='NOT RECOVERED/NOT RESOLVED' vs 'RECOVERED/RESOLVED'); RELREC.RELID='01-704-1017-E11'
     *   **指摘No.:** D-3
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** LB, VS, QSドメインにおいて、予定来院日 (VISITDY) と実際の測定日 (--DY) の間に大きなずれが見られる場合がある (例: Visit 7/Week 6 は Planned Day 42 に対し、LB, VS, QSのActual Dayは50)。プロトコルで規定された来院ウィンドウ (Visits 4, 5, 7, 8, 13 は ±3日、Visits 9, 10, 11, 12 は ±4日) を逸脱している可能性がある。
-        *   **根拠:** LB.VISITDY, LB.LBDY; VS.VISITDY, VS.VSDY; QS.VISITDY, QS.QSDY; SV.VISITDY, SV.SVSTDTC; プロトコル 3.1
+        *   **重要度:** Critical
+        *   **内容:** DS ドメインで治験中止理由が「ADVERSE EVENT」(DSDECOD='ADVERSE EVENT', DSSTDY=50) と記録されているが、中止の原因となった具体的な有害事象が特定できない。RELREC では RASH/PRURITUS (AESEQ=5, 7) が関連付けられているが、医学的には BRAIN DEATH (AESEQ=3, AESTDY=44) や MYOCARDIAL INFARCTION (AESEQ=1, AESTDY=14) が中止理由としてより考えられる。中止日 (DSSTDY=50) も AE 終了日や治験薬最終投与日 (EXENDY=44) とずれている。
+        *   **根拠:** DS.DSDECOD='ADVERSE EVENT', DSSTDY=50; RELREC.IDVAR='DSSEQ', RELREC.IDVARVAL='1', RELREC.RELID='01-704-1017-E11'; AE.AESEQ=3, 4, 5, 6, 7, 8; EX.EXENDY=44
+    *   **指摘No.:** D-4
+        *   **重要度:** Minor
+        *   **内容:** CM ドメインで ASPIRIN, HYDROCORTISONE, TOPICAL, PREMARIN の記録が Visit ごとに複数存在するが、投与期間 (CMSTDTC/CMENDTC) が重複または同一であり、冗長な記録となっている。
+        *   **根拠:** CM.CMTRT='ASPIRIN', CM.CMTRT='HYDROCORTISONE, TOPICAL', CM.CMTRT='PREMARIN' の複数レコード
+    *   **指摘No.:** D-5
+        *   **重要度:** Major
+        *   **内容:** 重要な変数に欠損や不適切な値が見られる。
+            *   AEACN (治験薬に対する処置): 多くの AE で空欄。特に重篤な可能性のある AE (AESEQ=3, 4) で空欄。
+            *   AESER (重篤性): 全ての AE で "N"。医学的に重篤と考えられる事象が含まれる (M-2参照)。
+            *   AEENDTC/AEENDY: AESEQ=2 (VENTRICULAR SEPTAL DEFECT) で欠損。
+            *   CMDECOD/CMCLAS/CMINDC: HYDROCORTISONE, PREMARIN で未コード化または空欄。
+            *   CMSTDTC: ASPIRIN で年のみ記録 ("2000")。
+            *   CMENDTC: ASPIRIN で欠損。
+            *   MHSTDTC: 一部 MH で欠損。
+        *   **根拠:** AE, CM, MH ドメインの各変数
 
 *   **プロトコル遵守観点からの指摘事項 (逸脱の可能性):**
     *   **指摘No.:** P-1
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 除外基準[27b] (臨床検査値異常) への抵触の可能性。ベースライン前のスクリーニング時 (Day -16) のクレアチニン値が1.8 mg/dLであり、基準範囲 (0.8-1.6 mg/dL) を超えている。プロトコルでは「Laboratory test values exceeding the Lilly Reference Range III... creatinine...」を除外基準としている。適格性評価の妥当性確認が必要。
-        *   **プロトコル該当箇所:** Section 3.4.2.2 Exclusion Criteria [27b]
-        *   **根拠:** LB.LBTESTCD = 'CREAT', LB.LBORRES = '1.8', LB.LBNRIND = 'HIGH', LB.LBORNRLO = '0.8', LB.LBORNRHI = '1.6', LBDY = -16
+        *   **重要度:** Critical
+        *   **逸脱の可能性:** 患者が除外基準 [27b] (特定の臨床検査値異常) に抵触していた可能性がある。ベースラインのクレアチニン値が高値であり、プロトコルで規定された Reference Range III を超えていた可能性がある。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [27b]
+        *   **根拠:** LB.LBTESTCD='CREAT', LB.VISITNUM=1, LBNRIND='HIGH'
     *   **指摘No.:** P-2
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 除外基準[31v] (併用薬: エストロゲン) の規定違反の可能性。Premarin (エストロゲン製剤) がDay 1から投与開始されているが、プロトコルでは「Estrogen supplements are permitted... but dosage must be stable for at least 3 months prior to enrollment.」と規定されている。ベースラインからの新規投与はプロトコル違反の可能性がある。
-        *   **プロトコル該当箇所:** Section 3.4.2.2 Exclusion Criteria [31v]
-        *   **根拠:** CM.CMTRT = 'PREMARIN', CM.CMSTDY = 1
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 患者が除外基準 [31b] v) (特定の併用薬) に抵触していた可能性がある。Premarin の投与が治験開始前から3ヶ月以上安定していなかった可能性がある。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [31b] v)
+        *   **根拠:** CM.CMTRT='PREMARIN', CMSTDTC='2013-10-06'; DM.RFSTDTC='2013-10-06'
     *   **指摘No.:** P-3
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 来院スケジュールからの逸脱。Visit 5 (Week 4) の実施日 (Day 35) が予定日 (Day 28) から7日遅れており、プロトコル規定の許容範囲 (±3日) を逸脱している。Visit 7 (Week 6) の実施日 (Day 50) も予定日 (Day 42) から8日遅れており、許容範囲 (±3日) を逸脱している。
-        *   **プロトコル該当箇所:** Section 3.1 Summary of Study Design (Visit window description)
-        *   **根拠:** SV.VISITNUM = 5, SV.VISITDY = 28, SV.SVSTDTC = '2013-11-09' (Day 35); SV.VISITNUM = 7, SV.VISITDY = 42, SV.SVSTDTC = '2013-11-24' (Day 50)
+        *   **重要度:** Minor
+        *   **逸脱の可能性:** 有効性評価を含む Visit の実施タイミングが、プロトコルで規定された Visit Window から逸脱している。Visit 5 (Week 4) は予定 Day 28 に対して Day 35 (Window ±3日外)、Visit 7 (Week 6) は予定 Day 42 に対して Day 50 (Window ±3日外) に実施された。
+        *   **プロトコル該当箇所:** Section 3.1 (Visit Window の記載あり)
+        *   **根拠:** SV.VISITNUM=5, SVSTDTC='2013-11-09' (Day 35); SV.VISITNUM=7, SVSTDTC='2013-11-24' (Day 50); TV.VISITNUM=5, VISITDY=28; TV.VISITNUM=7, VISITDY=42
     *   **指摘No.:** P-4
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 安全性評価 (臨床検査) のスケジュール逸脱の可能性。プロトコルではVisit 7 (Week 6) で臨床検査 (Hematology/Chemistry) が予定されているが、LBドメインにはDay 50 (Visit 7実施日) のデータが存在しない。DSドメインにDay 27の「FINAL LAB VISIT」が記録されていることと関連があるか不明だが、予定された検査が実施されていない可能性がある。
-        *   **プロトコル該当箇所:** Protocol Attachment LZZT.1 Schedule of Events
-        *   **根拠:** LBドメイン (Day 50のデータなし); DS.DSDECOD = 'FINAL LAB VISIT', DS.DSSTDY = 27
+        *   **重要度:** Critical
+        *   **逸脱の可能性:** 重篤な有害事象の報告手順が遵守されていない可能性がある。医学的に重篤と考えられる AE (脳梗塞後遺症、脳死) が非重篤 (AESER='N') として報告されている。
+        *   **プロトコル該当箇所:** Section 3.9.3.2.2 (Serious Adverse Events の定義と報告義務)
+        *   **根拠:** AE.AESEQ=3, 4, AESER='N'
+    *   **指摘No.:** P-5
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 患者が除外基準 [17] (5年以内の serious な心血管系疾患) に抵触していた可能性がある。MH に複数の心血管系既往歴があるが、一部開始日が不明なため、5年以内の該当イベントの有無が確認できない。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [17]
+        *   **根拠:** MH ドメイン (CARDIAC DISORDER, ST SEGMENT ELEVATED/DEPRESSED, EXTRASYSTOLES 等で MHSTDTC が欠損)
+    *   **指摘No.:** P-6
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 患者が選択基準 [3] (MMSE スコア 10-23) を満たしていなかった可能性がある。MMSE スコアデータが提供されていないため確認が必要。
+        *   **プロトコル該当箇所:** Section 3.4.2.1 [3]
+        *   **根拠:** QS ドメインに MMSE データなし
+
+*   **有効性評価観点からの指摘事項:**
+    *   **指摘No.:** E-1
+        *   **重要度:** Minor
+        *   **内容:** Week 6 (Visit 7) の有効性評価の実施日が、プロトコルで規定された Visit Window (Day 42 ± 3日) から逸脱している (Day 50 に実施)。評価タイミングのずれが結果に影響を与えた可能性は低いと考えられるが、プロトコル逸脱に該当する。
+        *   **根拠:** QS.VISITNUM=7, QSDY=50; TV.VISITNUM=7, VISITDY=42; Protocol Section 3.1
+    *   **指摘No.:** E-2
+        *   **重要度:** Minor
+        *   **内容:** 有効性評価の結果に一貫性が見られない。認知機能 (ADAS-Cog) は悪化している一方で、精神症状 (NPI-X) は改善傾向を示している。全般印象 (CIBIC+) は変化なし。これらの結果の乖離について、AE の影響や評価時期のずれなどを考慮して解釈する必要がある。
+        *   **根拠:** QS.QSTESTCD='ACTOT' (Baseline 27 -> Week 6 30); QS.QSTESTCD='NPTOT' (Baseline 61 -> Week 6 16); QS.QSTESTCD='CIBIC' (Week 6 = 4)
+    *   **指摘No.:** E-3
+        *   **重要度:** Minor
+        *   **内容:** DAD スコアの一部の項目で、ベースライン時に NA (Not Applicable) と評価されていたものが、Week 6 で評価可能 (Yes/No) になっている (DAITM04, DAITM30, DAITM31, DAITM32)。評価方法の一貫性について確認が必要かもしれないが、患者の状態変化による可能性もある。
+        *   **根拠:** QS.QSTESTCD in ('DAITM04', 'DAITM30', 'DAITM31', 'DAITM32'), QSSTRESC (Visit 3 vs Visit 7)
 
 ## 3. 疑義事項
 
 *   **医療機関へのクエリ:**
-    *   **クエリNo.:** Q-1 (関連指摘No.: M-1)
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **医療機関への問い合わせ文面:** "Day 14に発現した有害事象「MYOCARDIAL INFARCTION」(AESEQ=1) について、重症度が'MILD'、重篤度が'N' (非重篤)、治験薬との関連性が'NONE'と報告されています。心筋梗塞は通常重篤であり、治験薬中止措置も取られていることから、報告された重症度、重篤度、および関連性の評価が適切かご確認ください。必要に応じて修正をお願いします。"
-        *   **判断理由:** 有害事象の評価（重症度、重篤度、関連性）が医学的一般常識および臨床経過（治験薬中止）と乖離しており、患者の安全性評価および試験結果の解釈に重大な影響を与えるため。
+    *   **クエリNo.:** Q-1 (関連指摘No.: M-1, P-1)
+        *   **重要度:** Critical
+        *   **医療機関への問い合わせ文面:** "Screening Visit (Visit 1, 2013-09-20) で測定されたクレアチニン値 (1.8 mg/dL, 159.12 umol/L) が基準値上限 (1.6 mg/dL, 141 umol/L) を超えていました。プロトコル除外基準 Section 3.4.2.2 [27b] では、基準値を超える特定の検査値は除外対象とされています。当該患者が適格基準を満たしていたか、逸脱に該当しないと判断された根拠についてご確認ください。"
+        *   **判断理由:** 選択/除外基準の違反は試験の妥当性に重大な影響を与えるため。
         *   **判断根拠:**
-            *   AE.AETERM = 'MYOCARDIAL INFARCTION', AE.AESEQ = 1, AE.AESEV = 'MILD', AE.AESER = 'N', AE.AEACN = 'DRUG WITHDRAWN', AE.AEREL = 'NONE', AE.AESTDY = 14
-            *   プロトコル Section 3.9.3.2.2 Serious Adverse Events 定義
-    *   **クエリNo.:** Q-2 (関連指摘No.: M-2)
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **医療機関への問い合わせ文面:** "Day 44に発現・終了した有害事象「BRAIN DEATH」(AESEQ=3) について、転帰が'RECOVERED/RESOLVED'、重篤度が'N' (非重篤) と報告されています。脳死からの回復はありえず、重篤度の評価も不適切です。事象名、重篤度、転帰について報告内容をご確認の上、修正をお願いします。本事象が実際に発生したのか、あるいは報告エラーなのか明確にしてください。"
-        *   **判断理由:** 報告内容が医学的にありえず、データの信頼性を著しく損なうため。患者の実際の状態と報告の整合性を確認する必要がある。
+            *   LB.USUBJID='01-704-1017', LBTESTCD='CREAT', VISITNUM=1, LBORRES='1.8', LBORRESU='mg/dL', LBSTRESC='159.12', LBSTNRHI=141, LBNRIND='HIGH'
+            *   Protocol Section 3.4.2.2 [27b]
+    *   **クエリNo.:** Q-2 (関連指摘No.: M-2, D-5, P-4)
+        *   **重要度:** Critical
+        *   **医療機関への問い合わせ文面:** "有害事象として LATE EFFECTS OF CEREBRAL INFARCTION (Severe, Day 14発現) および BRAIN DEATH (Severe, Day 44発現) が報告されていますが、重篤性 (AESER) が 'N' (非重篤) と記録されています。プロトコル Section 3.9.3.2.2 の重篤な有害事象の定義に基づき、これらの事象の重篤性評価 (AESER および関連する AESDTH, AESHOSP, AESLIFE, AESDISAB 等) が適切であったか再確認し、必要であれば修正をお願いします。"
+        *   **判断理由:** 重篤な有害事象の評価と報告は患者の安全性および規制要件遵守の観点から極めて重要であるため。
         *   **判断根拠:**
-            *   AE.AETERM = 'BRAIN DEATH', AE.AESEQ = 3, AE.AESEV = 'SEVERE', AE.AESER = 'N', AE.AEOUT = 'RECOVERED/RESOLVED', AE.AESTDY = 44, AE.AEENDY = 44
-    *   **クエリNo.:** Q-3 (関連指摘No.: M-3)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Day 14に発現した有害事象「VENTRICULAR SEPTAL DEFECT」(AESEQ=2) について、心室中隔欠損症は通常先天性疾患ですが、有害事象として報告されています。本事象が治験期間中に新たに診断されたものか、既往歴の見落とし等他の理由によるものかご確認ください。発症日(Day 14)の妥当性についてもご確認ください。"
-        *   **判断理由:** 有害事象報告の妥当性に疑問があり、患者背景情報の正確性に関わるため。
+            *   AE.USUBJID='01-704-1017', AESEQ=4, AETERM='LATE EFFECTS OF CEREBRAL INFARCTION', AESEV='SEVERE', AESER='N'
+            *   AE.USUBJID='01-704-1017', AESEQ=3, AETERM='BRAIN DEATH', AESEV='SEVERE', AESER='N'
+            *   Protocol Section 3.9.3.2.2
+    *   **クエリNo.:** Q-3 (関連指摘No.: M-4, D-1)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "有害事象 MYOCARDIAL INFARCTION (AESEQ=1, Day 14発現) について、AEACN が 'DRUG WITHDRAWN' と記録されていますが、EX ドメインでは治験薬投与が Day 44 まで継続されています。実際の治験薬に対する処置（中止、中断、用量変更なし等）と、もし中止された場合はその日付を明確にしてください。"
+        *   **判断理由:** 有害事象発生時の治験薬の処置に関する記録の矛盾は、安全性評価に影響するため。
         *   **判断根拠:**
-            *   AE.AETERM = 'VENTRICULAR SEPTAL DEFECT', AE.AESEQ = 2, AE.AESTDY = 14
-            *   MHドメイン (VSDの記載なし)
-    *   **クエリNo.:** Q-4 (関連指摘No.: M-4)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Day 14に発現した有害事象「LATE EFFECTS OF CEREBRAL INFARCTION」(AESEQ=4, AEDECOD='CEREBRAL INFARCTION') について、事象名が一般的ではありません。また、転帰が'NOT RECOVERED/NOT RESOLVED'であるにも関わらず終了日(Day 44)が入力されています。事象名の詳細、および転帰と終了日の整合性についてご確認ください。"
-        *   **判断理由:** 事象名の不明瞭さ、および転帰と終了日の不整合により、データの解釈が困難なため。
+            *   AE.USUBJID='01-704-1017', AESEQ=1, AEACN='DRUG WITHDRAWN', AESTDY=14
+            *   EX.USUBJID='01-704-1017', EXENDY=44
+    *   **クエリNo.:** Q-4 (関連指摘No.: D-3)
+        *   **重要度:** Critical
+        *   **医療機関への問い合わせ文面:** "治験中止記録 (DS) によると、中止理由は 'ADVERSE EVENT' (Day 50) となっています。中止の直接的な原因となった有害事象名を具体的に特定し、ご報告ください。また、中止日 (Day 50) が治験薬最終投与日 (Day 44) や関連する可能性のある AE の終了日と異なりますが、中止日が Day 50 で正しいかご確認ください。"
+        *   **判断理由:** 治験中止理由の特定と日付の正確性は、安全性評価および試験結果の解釈に不可欠であるため。
         *   **判断根拠:**
-            *   AE.AETERM = 'LATE EFFECTS OF CEREBRAL INFARCTION', AE.AEDECOD = 'CEREBRAL INFARCTION', AE.AESEQ = 4, AE.AEOUT = 'NOT RECOVERED/NOT RESOLVED', AE.AEENDY = 44
-    *   **クエリNo.:** Q-5 (関連指摘No.: D-1)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **医療機関への問い合わせ文面:** "有害事象「RASH」(AESEQ=5, 7) および「PRURITUS」(AESEQ=6, 8) について、同一期間の事象に対して複数のレコードが存在し、一部で転帰(AEOUT)が異なっています。重複レコードの要否、および正しい転帰をご確認の上、修正をお願いします。"
-        *   **判断理由:** データの一貫性を確保するため。
+            *   DS.USUBJID='01-704-1017', DSDECOD='ADVERSE EVENT', DSSTDY=50
+            *   AE.USUBJID='01-704-1017' (複数のAEあり)
+            *   EX.USUBJID='01-704-1017', EXENDY=44
+    *   **クエリNo.:** Q-5 (関連指摘No.: M-3, P-2)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "併用薬 Premarin (Estrogens Conjugated) について、投与開始日 (CMSTDTC) が 2013-10-06 (Day 1) と記録されています。プロトコル Section 3.4.2.2 [31b] v) では、Estrogen supplements は投与量が少なくとも3ヶ月間安定している場合にのみ許可されています。治験参加前に3ヶ月以上の安定投与期間があったかご確認ください。もし治験開始時からの新規投与であれば、プロトコル逸脱に該当する可能性があります。"
+        *   **判断理由:** 併用禁止/制限薬に関するプロトコル遵守状況を確認するため。
         *   **判断根拠:**
-            *   AE.AETERM = 'RASH', AE.AESEQ = 5, AE.AEOUT = 'NOT RECOVERED/NOT RESOLVED'; AE.AESEQ = 7, AE.AEOUT = 'RECOVERED/RESOLVED'
-            *   AE.AETERM = 'PRURITUS', AE.AESEQ = 6, AE.AEOUT = 'NOT RECOVERED/NOT RESOLVED'; AE.AESEQ = 8, AE.AEOUT = 'RECOVERED/RESOLVED'
-    *   **クエリNo.:** Q-6 (関連指摘No.: P-1)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "スクリーニング時 (Day -16) のクレアチニン値が1.8 mg/dL (基準範囲 0.8-1.6 mg/dL) であり、プロトコル除外基準[27b] (臨床検査値異常) に該当する可能性があります。本患者が適格と判断された理由、あるいは除外基準に該当しないと判断された根拠についてご確認ください。"
-        *   **判断理由:** 患者選択の適格性に関わる重大な疑義であり、プロトコル遵守を確認するため。
+            *   CM.USUBJID='01-704-1017', CMTRT='PREMARIN', CMSTDTC='2013-10-06'
+            *   Protocol Section 3.4.2.2 [31b] v)
+    *   **クエリNo.:** Q-6 (関連指摘No.: P-5)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "Medical History に複数の心血管系既往歴が記録されていますが、一部 (CARDIAC DISORDER, ST SEGMENT ELEVATED/DEPRESSED, EXTRASYSTOLES 等) で発症/診断年月日 (MHSTDTC) が不明です。プロトコル除外基準 Section 3.4.2.2 [17] (過去5年以内の serious な心血管系疾患) に抵触する既往歴がなかったか、可能な範囲で発症/診断時期をご確認ください。"
+        *   **判断理由:** 患者の適格性確認のため。
         *   **判断根拠:**
-            *   LB.LBTESTCD = 'CREAT', LB.LBORRES = '1.8', LB.LBNRIND = 'HIGH', LB.LBORNRLO = '0.8', LB.LBORNRHI = '1.6', LBDY = -16
-            *   プロトコル Section 3.4.2.2 Exclusion Criteria [27b]
-    *   **クエリNo.:** Q-7 (関連指摘No.: P-2)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "併用薬 Premarin (エストロゲン製剤) がDay 1から投与開始されています。プロトコル除外基準[31v]では、エストロゲン補充療法は登録前3ヶ月間用量が安定している場合にのみ許容されると規定されています。本剤の投与開始がプロトコル規定に適合しているかご確認ください。"
-        *   **判断理由:** 併用薬に関するプロトコル規定違反の可能性があり、適格性およびデータ解釈に影響するため。
+            *   MH.USUBJID='01-704-1017', MHDECOD in ('CARDIAC DISORDER', 'ELECTROCARDIOGRAM ST SEGMENT ELEVATION', 'ELECTROCARDIOGRAM ST SEGMENT DEPRESSION', 'EXTRASYSTOLES'), MHSTDTC=(Missing)
+            *   Protocol Section 3.4.2.2 [17]
+    *   **クエリNo.:** Q-7 (関連指摘No.: P-6)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "選択基準 Section 3.4.2.1 [3] では、MMSE スコアが 10-23 であることが規定されています。スクリーニング時に実施された MMSE のスコアをご報告ください。"
+        *   **判断理由:** 患者の適格性確認のため。
         *   **判断根拠:**
-            *   CM.CMTRT = 'PREMARIN', CM.CMSTDY = 1
-            *   プロトコル Section 3.4.2.2 Exclusion Criteria [31v]
-    *   **クエリNo.:** Q-8 (関連指摘No.: P-3, D-3)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Visit 5 (Week 4) および Visit 7 (Week 6) の実施日が、予定日 (それぞれDay 28, Day 42) からプロトコルで規定された許容範囲 (±3日) を超えて遅延しています (それぞれDay 35, Day 50)。遅延理由についてご確認ください。"
-        *   **判断理由:** プロトコルで規定された評価スケジュールからの逸脱であり、データの評価に影響する可能性があるため。
+            *   Protocol Section 3.4.2.1 [3]
+            *   QS ドメインに MMSE データなし
+    *   **クエリNo.:** Q-8 (関連指摘No.: P-3, E-1)
+        *   **重要度:** Minor
+        *   **医療機関への問い合わせ文面:** "Visit 5 (Week 4) および Visit 7 (Week 6) の実施日が、プロトコルで規定された Visit Window (それぞれ Day 28±3日、Day 42±3日) から逸脱していました (実施日: Day 35, Day 50)。逸脱理由について記録があればお知らせください。"
+        *   **判断理由:** プロトコル逸脱の理由を確認・記録するため。
         *   **判断根拠:**
-            *   SV.VISITNUM = 5, SV.VISITDY = 28, SV.SVSTDTC = '2013-11-09' (Day 35)
-            *   SV.VISITNUM = 7, SV.VISITDY = 42, SV.SVSTDTC = '2013-11-24' (Day 50)
-            *   プロトコル Section 3.1
-    *   **クエリNo.:** Q-9 (関連指摘No.: P-4)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Visit 7 (Week 6, 実施日 Day 50) で予定されていた臨床検査 (血液学・生化学) のデータがLBドメインに見当たりません。検査が実施されなかったのか、あるいは報告漏れかご確認ください。Day 27にDSドメインで'FINAL LAB VISIT'が記録されていることとの関連があれば併せてご教示ください。"
-        *   **判断理由:** プロトコルで規定された安全性評価が実施されなかった可能性があり、患者の安全性監視およびデータ完全性に関わるため。
+            *   SV.USUBJID='01-704-1017', VISITNUM=5, SVSTDTC='2013-11-09' (Day 35)
+            *   SV.USUBJID='01-704-1017', VISITNUM=7, SVSTDTC='2013-11-24' (Day 50)
+            *   Protocol Section 3.1
+    *   **クエリNo.:** Q-9 (関連指摘No.: M-5, D-5)
+        *   **重要度:** Minor
+        *   **医療機関への問い合わせ文面:** "有害事象 VENTRICULAR SEPTAL DEFECT (AESEQ=2, Day 14発現) について、報告内容をご確認ください。これは通常先天性疾患ですが、77歳での新規発現として報告されています。また、終了日 (AEENDTC) が欠損しています。事象の確認と終了日の追記をお願いします。"
+        *   **判断理由:** 報告内容の医学的妥当性の確認とデータ欠損の補完のため。
         *   **判断根拠:**
-            *   LBドメイン (Day 50のデータなし)
-            *   プロトコル Attachment LZZT.1 Schedule of Events
-            *   DS.DSDECOD = 'FINAL LAB VISIT', DS.DSSTDY = 27
+            *   AE.USUBJID='01-704-1017', AESEQ=2, AETERM='VENTRICULAR SEPTAL DEFECT', AESTDY=14, AEENDTC=(Missing)
+            *   DM.AGE=77
 
 *   **内部確認事項 (問い合わせ不要):**
-    *   **確認事項No.:** I-1 (関連指摘No.: M-5)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** 治験薬投与後の血圧・脈拍低下傾向を認める。Xanomelineの薬理作用の可能性があり、心血管系既往歴のある高齢者であるため臨床的に注意が必要だが、現時点で症候性のイベント報告はない。内部で医学的監視を継続する。
-        *   **判断理由:** 有害事象報告はないが、薬剤の安全性プロファイルと患者背景を考慮し、継続的な監視が必要と判断。医療機関への問い合わせは現時点では不要。
+    *   **確認事項No.:** I-1 (関連指摘No.: D-2)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** AE ドメインにおいて、RASH (AESEQ=5, 7) および PRURITUS (AESEQ=6, 8) が重複して記録され、転帰 (AEOUT) が異なっている。RELREC の情報から同一イベントの記録不備と判断。データマネジメント部門にてデータクリーニング要否を検討。
+        *   **判断理由:** データの一貫性に関わる問題だが、医療機関への問い合わせで解決する性質のものではなく、内部でのデータ処理の問題と考えられるため。
         *   **判断根拠:**
-            *   VSドメインデータ (SYSBP, DIABP, PULSE)
-            *   MHドメインデータ (心血管系既往歴)
-            *   一般的な医学知識 (ムスカリン作動薬の作用)
-    *   **確認事項No.:** I-2 (関連指摘No.: D-2)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** Dispositionドメインに「FINAL LAB VISIT」(DSSEQ=2) が記録されている。SDTM IGの定義上、DSドメインへの記録が適切か内部で検討・確認する。
-        *   **判断理由:** データ標準の適用に関する内部確認事項であり、医療機関への問い合わせは不要。
+            *   AE.USUBJID='01-704-1017', AESEQ=5, 7; AESEQ=6, 8
+            *   RELREC.RELID='01-704-1017-E11'
+    *   **確認事項No.:** I-2 (関連指摘No.: D-4, D-5)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** CM ドメインの ASPIRIN, HYDROCORTISONE, PREMARIN の記録が冗長である。また、ASPIRIN の開始年のみ記録、終了日欠損、HYDROCORTISONE, PREMARIN のコード化情報欠損が見られる。データ標準と品質に関する問題として記録。
+        *   **判断理由:** データ入力・構造上の問題であり、内部でのデータ標準化や品質管理プロセスで対応すべき事項のため。
         *   **判断根拠:**
-            *   DS.DSDECOD = 'FINAL LAB VISIT', DS.DSSEQ = 2
-            *   SDTM Implementation Guide
-    *   **確認事項No.:** I-3 (関連指摘No.: なし)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** MHドメインの多くのレコードで開始日(MHSTDTC)が欠損している。CMドメインのAspirinで開始Study Day(CMSTDY)が欠損している。データの完全性に関する問題として記録する。
-        *   **判断理由:** データの欠損だが、既往歴や長期使用薬であり、試験評価への直接的な影響は限定的と考えられるため内部確認とする。
+            *   CM.USUBJID='01-704-1017'
+    *   **確認事項No.:** I-3 (関連指摘No.: D-5)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** AEACN (治験薬に対する処置) や MHSTDTC (既往歴開始日) の欠損が多い。今後のデータ収集・入力品質向上のための参考情報として記録。
+        *   **判断理由:** データ完全性に関する問題だが、個別の問い合わせで全て解決するとは限らず、全体的な品質改善の観点から内部で記録・検討すべき事項のため。
         *   **判断根拠:**
-            *   MHドメイン (MHSTDTC欠損レコード)
-            *   CM.CMTRT = 'ASPIRIN', CM.CMSTDY = null
+            *   AE.USUBJID='01-704-1017', AEACN=(Missing)
+            *   MH.USUBJID='01-704-1017', MHSTDTC=(Missing)
+    *   **確認事項No.:** I-4 (関連指摘No.: E-2)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** 有効性評価項目間で結果の傾向に乖離が見られる (ADAS-Cog悪化 vs NPI-X改善)。AE の影響や評価時期のずれも考慮し、統計解析および結果解釈時に留意する。
+        *   **判断理由:** データ間の解釈に関する事項であり、医療機関への問い合わせではなく、内部での解析・考察で対応すべき事項のため。
+        *   **判断根拠:**
+            *   QS.USUBJID='01-704-1017' (ADAS-Cog, NPI-X, CIBIC+ の結果)
+    *   **確認事項No.:** I-5 (関連指摘No.: M-6)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** VS データで血圧低下傾向が認められる。薬理作用として想定されうる範囲であり、現時点で追加のアクションは不要だが、安全性モニタリングの一環として記録。
+        *   **判断理由:** 医学的に想定される変動であり、安全性上の懸念が直ちに生じるレベルではないため、内部記録に留める。
+        *   **判断根拠:**
+            *   VS.USUBJID='01-704-1017', VSTESTCD='SYSBP', 'DIABP'
 
 # 01-703-1042のデータ統合レビュー報告
 
 ## 1. 症例サマリー
 
 *   **患者背景:**
-    *   64歳、男性、人種: WHITE、民族: NOT HISPANIC OR LATINO。教育歴: 12年。
-    *   既往歴として、アルツハイマー病 (Primary Diagnosis, 2008年発症)、肺気腫 (Mild)、冠動脈疾患 (Mild)、関節炎 (Mild)、肺膿瘍ドレナージ術後 (1997年)、腸ポリープ切除術後 (2009年) を有する。
-    *   併用薬として、Norvasc (Amlodipine) をDay -34から継続、Vitamin C、Vitamin Eを2009年から継続している。
+    64歳、男性、白人、非ヒスパニックまたはラティーノ。本試験ではPlacebo群に割り付けられた (計画/実績)。米国在住。教育歴12年。
 
 *   **イベント推移:**
-    *   2012年12月27日 (Day -65): Screening 1 Visit。臨床検査にてALT (135 U/L, 基準値上限の3.1倍)、AST (145 U/L, 基準値上限の4.0倍) の高値を認める (LBNRIND=HIGH)。
-    *   2013年02月21日 (Day -9): Unscheduled 1.1 Visit。臨床検査にてALT (19 U/L)、AST (29 U/L) は正常化。Sodium (133 mEq/L) が基準値下限 (135) を下回り低値 (LBNRIND=LOW)。
-    *   2013年03月02日 (Day 1): Baseline Visit。Placebo投与開始。バイタルサインにて臥位血圧 130/56 mmHg、立位1分後 108/66 mmHg、立位3分後 110/68 mmHg。臥位脈拍 60 bpm、立位1分後 80 bpm、立位3分後 82 bpm。起立性低血圧の可能性あり。
-    *   2013年03月04日 (Day 3): 有害事象「DIARRHOEA」(Mild) 発現。
-    *   2013年03月05日 (Day 4): 有害事象「DIARRHOEA」回復。有害事象「INSOMNIA」(Mild) 発現。併用薬「KAOPECTATE」を1 Tbsp服用。
-    *   2013年03月06日 (Day 5): 有害事象「INSOMNIA」回復。
-    *   2013年03月28日 (Day 27): Week 4 Visit。臨床検査にてAnisocytes (1, LBNRIND=ABNORMAL)、MCV (101 fL, LBNRIND=HIGH)、Sodium (146 mEq/L, LBNRIND=HIGH) を認める。
-    *   2013年07月20日 (Day 141): Week 20 Visit。体温 37.44 C (99.4 F) を認める。
-    *   2013年08月09日 (Day 161): Week 24 Visit。予定日 (Day 168) より7日早く実施。
-    *   2013年08月31日 (Day 183): Week 26 Visit (最終投与日)。臨床検査にてAST (38 U/L) が基準値上限 (36) をわずかに上回り高値 (LBNRIND=HIGH)。体温 37.56 C (99.6 F) を認める。試験完了 (DSDECOD=COMPLETED)。
+    *   不明 (2008年07月23日): 既往歴としてアルツハイマー病と診断 (MH.MHTERM='ALZHEIMER'S DISEASE', MH.MHSTDTC='2008-07-23')。
+    *   不明 (2009年): 既往歴として腸ポリープ切除術 (MH.MHTERM='INTESTINAL POLYPECTOMY', MH.MHSTDTC='2009')。
+    *   不明 (2009年): ビタミンC (500mg QD)、ビタミンE (200mg QD) 服用開始 (CM.CMTRT='VITAMIN C'/'VITAMIN E', CM.CMSTDTC='2009')。
+    *   不明: 既往歴として肺気腫 (軽度)、冠動脈疾患 (軽度)、関節炎 (軽度) あり (MH.MHTERM='VERBATIM_0087'/'VERBATIM_0409'/'VERBATIM_1309')。
+    *   不明 (1997年): 既往歴として肺膿瘍ドレナージ術 (MH.MHTERM='VERBATIM_1084', MH.MHSTDTC='1997')。
+    *   2013年01月27日 (Day -34): Norvasc (Amlodipine) 5mg QD 服用開始 (CM.CMTRT='NORVASC', CM.CMSTDTC='2013-01-27')。
+    *   2012年12月27日 (Day -65): Screening 1 Visit。
+        *   ALT 135 U/L (HIGH, 基準値上限43の約3.1倍)、AST 145 U/L (HIGH, 基準値上限36の約4.0倍) (LB.LBTESTCD='ALT'/'AST')。
+        *   MMSE Total Score 23点 (計算値)、Modified Hachinski Ischemic Score 1点 (計算値) (QS)。
+    *   2013年02月21日 (Day -9): Unscheduled Visit 1.1。
+        *   ALT 19 U/L (NORMAL)、AST 29 U/L (NORMAL) (LB.LBTESTCD='ALT'/'AST')。
+        *   Sodium 133 mEq/L (LOW, 基準値 135-145) (LB.LBTESTCD='SODIUM')。
+    *   2013年03月02日 (Day 1): Baseline Visit。治験薬 Placebo 投与開始 (EX.EXTRT='PLACEBO', EX.EXSTDTC='2013-03-02')。
+        *   ADAS-Cog(11) Total Score 14点 (QS.QSTESTCD='ACTOT')。
+        *   NPI-X Total Score 3点 (QS.QSTESTCD='NPTOT')。
+    *   2013年03月04日 (Day 3): 有害事象「Diarrhoea」(MILD) 発現 (AE.AETERM='DIARRHOEA', AE.AESTDTC='2013-03-04')。
+    *   2013年03月05日 (Day 4):
+        *   有害事象「Diarrhoea」(MILD) 回復 (AE.AEENDTC='2013-03-05')。
+        *   有害事象「Insomnia」(MILD) 発現 (AE.AETERM='INSOMNIA', AE.AESTDTC='2013-03-05')。
+        *   Kaopectate 1 Tbsp ONCE 服用 (Diarrhoeaに対する処置) (CM.CMTRT='KAOPECTATE', CM.CMSTDTC='2013-03-05', CM.CMENDTC='2013-03-05')。
+    *   2013年03月06日 (Day 5): 有害事象「Insomnia」(MILD) 回復 (AE.AEENDTC='2013-03-06')。
+    *   2013年03月28日 (Day 27): Week 4 Visit。
+        *   Sodium 146 mEq/L (HIGH, 基準値 135-145) (LB.LBTESTCD='SODIUM')。
+        *   MCV 101 fL (HIGH, 基準値 80-100) (LB.LBTESTCD='MCV')。
+        *   Anisocytes 1 (ABNORMAL) (LB.LBTESTCD='ANISO')。
+    *   2013年04月27日 (Day 57): Week 8 Visit。
+        *   ADAS-Cog(11) Total Score 9点 (QS.QSTESTCD='ACTOT')。
+    *   2013年06月22日 (Day 113): Week 16 Visit。
+        *   ADAS-Cog(11) Total Score 7点 (QS.QSTESTCD='ACTOT')。
+        *   CIBIC+ Score 4 (No Change) (QS.QSTESTCD='CIBIC')。
+    *   2013年08月09日 (Day 161): Week 24 Visit。
+        *   ADAS-Cog(11) Total Score 9点 (QS.QSTESTCD='ACTOT')。
+        *   CIBIC+ Score 4 (No Change) (QS.QSTESTCD='CIBIC')。
+    *   2013年08月31日 (Day 183): Week 26 Visit (最終Visit)。
+        *   AST 38 U/L (HIGH, 基準値 11-36) (LB.LBTESTCD='AST')。
+        *   治験完了 (DS.DSDECOD='COMPLETED')。
+        *   治験薬 Placebo 投与終了 (EX.EXENDTC='2013-08-31')。
 
 ## 2. 統合レビュー結果
 
 *   **医学的観点からの指摘事項:**
     *   **指摘No.:** M-1
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **内容:** Screening 1 (Day -65) におけるALT (135 U/L)、AST (145 U/L) の高値 (基準値上限の3倍超) は、プロトコル除外基準 [27b] (Laboratory test values exceeding the Lilly Reference Range III for... SGOT, SGPT) に抵触する可能性がある。Unscheduled Visit (Day -9) で正常化しているが、登録時の適格性判断の妥当性について確認が必要。
-        *   **根拠:** LB.LBTESTCD='ALT', LB.LBORRES='135', LB.LBORNRHI='43', LB.LBNRIND='HIGH', LB.LBDY=-65; LB.LBTESTCD='AST', LB.LBORRES='145', LB.LBORNRHI='36', LB.LBNRIND='HIGH', LB.LBDY=-65; プロトコル Section 3.4.2.2 [27b]
+        *   **重要度:** Major
+        *   **内容:** Screening Visit 1 (Day -65) において、ALT (135 U/L, 基準値上限の約3.1倍) および AST (145 U/L, 基準値上限の約4.0倍) の高値が認められた。これはプロトコルの除外基準 [27b] に抵触する可能性があった。しかし、Unscheduled Visit 1.1 (Day -9) で正常化しており、治験参加は継続された。Screening時の高値の原因は不明だが、一過性であったと考えられる。
+        *   **根拠:** LB.LBTESTCD='ALT', LB.LBSTRESN=135, LB.LBSTNRHI=43 (Day -65); LB.LBTESTCD='AST', LB.LBSTRESN=145, LB.LBSTNRHI=36 (Day -65); LB.LBTESTCD='ALT'/'AST', LB.LBNRIND='NORMAL' (Day -9); Protocol Section 3.4.2.2 [27b].
     *   **指摘No.:** M-2
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Unscheduled Visit (Day -9) で低ナトリウム血症 (133 mEq/L)、Week 4 (Day 27) で高ナトリウム血症 (146 mEq/L) を認めており、電解質バランスの変動が大きい。また、Week 4 (Day 27) でAnisocytes異常およびMCV高値 (101 fL) を認めており、血液学的異常の可能性が示唆される。これらの異常に関連する有害事象は報告されていない。原因や臨床的意義について評価が必要。
-        *   **根拠:** LB.LBTESTCD='SODIUM', LB.LBORRES='133', LB.LBNRIND='LOW', LB.LBDY=-9; LB.LBTESTCD='SODIUM', LB.LBORRES='146', LB.LBNRIND='HIGH', LB.LBDY=27; LB.LBTESTCD='ANISO', LB.LBORRES='1', LB.LBNRIND='ABNORMAL', LB.LBDY=27; LB.LBTESTCD='MCV', LB.LBORRES='101', LB.LBNRIND='HIGH', LB.LBDY=27; AEドメインに関連報告なし
-    *   **指摘No.:** M-3
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Baseline (Day 1) のバイタルサインにおいて、臥位から立位への体位変換時に収縮期血圧が22mmHg低下し (130→108 mmHg)、脈拍が20bpm増加しており (60→80 bpm)、起立性低血圧の可能性が示唆される。患者背景 (64歳男性、アルツハイマー病) を考慮すると転倒リスクに注意が必要。関連する有害事象は報告されていない。
-        *   **根拠:** VS.VSTESTCD='SYSBP', VS.VSPOS='SUPINE', VS.VSORRES='130', VS.VSDY=1; VS.VSTESTCD='SYSBP', VS.VSPOS='STANDING', VS.VSTPT='AFTER STANDING FOR 1 MINUTE', VS.VSORRES='108', VS.VSDY=1; VS.VSTESTCD='PULSE', VS.VSPOS='SUPINE', VS.VSORRES='60', VS.VSDY=1; VS.VSTESTCD='PULSE', VS.VSPOS='STANDING', VS.VSTPT='AFTER STANDING FOR 1 MINUTE', VS.VSORRES='80', VS.VSDY=1; AEドメインに関連報告なし
+        *   **重要度:** Minor
+        *   **内容:** Week 4 (Day 27) にMCVの軽度高値 (101 fL, 基準値 80-100) および Anisocytes 異常が認められた。貧血やビタミン欠乏との明確な関連はなく、その後の検査では正常化しているため、臨床的意義は低い可能性が高い。
+        *   **根拠:** LB.LBTESTCD='MCV', LB.LBSTRESN=101, LB.LBNRIND='HIGH' (Day 27); LB.LBTESTCD='ANISO', LB.LBSTRESC='1', LB.LBNRIND='ABNORMAL' (Day 27); LB.LBTESTCD='HGB'/'HCT' (正常範囲); LB.LBTESTCD='VITB12' (Screening時正常).
 
 *   **データ整合性観点からの指摘事項:**
     *   **指摘No.:** D-1
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** LBドメインのUnscheduled 1.1 Visit (VISITNUM=1.1) において、Planned Study Day of Visit (VISITDY) が欠損している。Study Day of Specimen Collection (LBDY=-9) は記録されている。
-        *   **根拠:** LB.VISITNUM=1.1, LB.VISITDY=null, LB.LBDY=-9
+        *   **重要度:** Minor
+        *   **内容:** CMドメインにて、Vitamin C (CMSEQ=1など) および Vitamin E (CMSEQ=2など) の開始日 (CMSTDTC) が '2009' と年のみ記録されており、Study Day (CMSTDY) が欠損している。
+        *   **根拠:** CM.CMTRT='VITAMIN C'/'VITAMIN E', CM.CMSTDTC='2009', CM.CMSTDY=null.
     *   **指摘No.:** D-2
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** MHドメインおよびCMドメインにおいて、一部レコードでコーディング関連変数 (MHDECOD, MHLLT, MHHLT, MHHLGT, CMDECOD, CMCLAS) が欠損している。また、MHドメインの一部レコードで開始日 (MHSTDTC)、CMドメインの継続投与薬剤で終了日 (CMENDTC, CMENDY) が欠損している。
-        *   **根拠:** MH.MHTERM in ('ALZHEIMER''S DISEASE', 'VERBATIM_0087', 'VERBATIM_0409', 'VERBATIM_1084', 'VERBATIM_1169', 'VERBATIM_1309'); CM.CMTRT in ('KAOPECTATE', 'VITAMIN C', 'VITAMIN E', 'NORVASC')
+        *   **重要度:** Minor
+        *   **内容:** CMドメインのKaopectate (CMSEQ=13) について、薬剤の投与日 (CMSTDTC/CMENDTC) は2013-03-05 (Day 4) と記録されているが、収集日 (CMDTC) が2013-03-14 (Day 13) と大きく乖離している。記録日の誤りか確認が必要。
+        *   **根拠:** CM.CMSEQ=13, CM.CMSTDTC='2013-03-05', CM.CMENDTC='2013-03-05', CM.CMDTC='2013-03-14'.
     *   **指摘No.:** D-3
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** 臨床検査値 (LB) およびバイタルサイン (VS) で認められた以下の異常値/所見について、関連する有害事象 (AE) が報告されていない。
-            *   Screening時の肝酵素高値 (ALT 135, AST 145)
-            *   Day -9の低ナトリウム血症 (133 mEq/L)
-            *   Day 27の高ナトリウム血症 (146 mEq/L)
-            *   Day 27のAnisocytes異常、MCV高値 (101 fL)
-            *   Baselineの起立性低血圧の可能性
-            *   Week 20, 26の微熱
-        *   **根拠:** LBドメイン、VSドメインの該当レコード; AEドメインに関連報告なし
+        *   **重要度:** Minor
+        *   **内容:** CMドメインにて、Norvasc, Vitamin C, Vitamin E の Indication (CMINDC) が欠損している。
+        *   **根拠:** CM.CMTRT='NORVASC'/'VITAMIN C'/'VITAMIN E', CM.CMINDC=''.
     *   **指摘No.:** D-4
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** SUPPLBドメインのLBTMSHI (LAB RESULT/UPPER LIMIT OF NORMAL) の値が、LBドメインの値 (LBSTRESN / LBSTNRHI) から計算される値と一致しないレコードが複数存在する。特にScreening 1 (Day -65) のALT (LBSEQ=3) およびAST (LBSEQ=4) のLBTMSHI値 (それぞれ0.3, 0.7) は、計算値 (それぞれ3.14, 4.03) と大きく乖離している。
-        *   **根拠:** SUPPLB.QNAM='LBTMSHI', SUPPLB.IDVARVAL='       3', SUPPLB.QVAL='0.3'; LB.LBSEQ=3, LB.LBSTRESN=135, LB.LBSTNRHI=43; SUPPLB.QNAM='LBTMSHI', SUPPLB.IDVARVAL='       4', SUPPLB.QVAL='0.7'; LB.LBSEQ=4, LB.LBSTRESN=145, LB.LBSTNRHI=36
+        *   **重要度:** Major
+        *   **内容:** CMドメインのKaopectate (CMSEQ=13) について、薬剤名が標準化されておらず (CMDECOD=UNCODED)、適応 (CMINDC) および薬剤分類 (CMCLAS) が欠損している。AEのDiarrhoeaとの関連が推測されるが、確認が必要。
+        *   **根拠:** CM.CMSEQ=13, CM.CMDECOD='UNCODED', CM.CMINDC='', CM.CMCLAS='UNCODED'.
+    *   **指摘No.:** D-5
+        *   **重要度:** Major
+        *   **内容:** CMドメインにて、Vitamin C (CMSEQ=1など) および Vitamin E (CMSEQ=2など) の標準薬剤名 (CMDECOD) および薬剤分類 (CMCLAS) が 'UNCODED' となっている。標準化が必要。
+        *   **根拠:** CM.CMTRT='VITAMIN C'/'VITAMIN E', CM.CMDECOD='UNCODED', CM.CMCLAS='UNCODED'.
+    *   **指摘No.:** D-6
+        *   **重要度:** Major
+        *   **内容:** AEドメインにて、報告された有害事象 (Diarrhoea, Insomnia) のMedDRA関連コード (AELLTCD, AEPTCD, AEHLTCD, AEHLGTCD, AEBDSYCD, AESOCCD) が欠損している。
+        *   **根拠:** AE.AESEQ=1, 2 における各種コード変数が null.
+    *   **指摘No.:** D-7
+        *   **重要度:** Major
+        *   **内容:** MHドメインにて、一部の既往歴 (MHTERM='ALZHEIMER'S DISEASE', 'VERBATIM_XXXX') でMedDRA関連コード (MHLLT, MHDECOD, MHHLT, MHHLGT) が欠損またはVerbatimのままとなっている。また、一部の既往歴で開始日 (MHSTDTC) が欠損している。
+        *   **根拠:** MHドメインの各レコードにおけるコード変数および MHSTDTC の値。
+    *   **指摘No.:** D-8
+        *   **重要度:** Major
+        *   **内容:** LBドメインに、Screeningで測定が必要な Folate のデータが存在しない。
+        *   **根拠:** LBデータに LBTESTCD='FOLATE' のレコードが存在しない。Protocol Section 3.4.2.2 [28b].
+    *   **指摘No.:** D-9
+        *   **重要度:** Major
+        *   **内容:** LBドメインのUrinalysisについて、Screening Visit 1で測定が必要とプロトコルに記載されている項目 (Protein, Blood, Nitrite, Microscopic examination) のデータが存在しない。
+        *   **根拠:** LBデータに Visit 1 における該当 LBTESTCD のレコードが存在しない。Protocol Section 3.9.3.3 Table LZZT.1.
 
 *   **プロトコル遵守観点からの指摘事項 (逸脱の可能性):**
     *   **指摘No.:** P-1
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 選択基準 [5] (CNS imaging compatible with AD within past 1 year) の適合性に関するデータが提供されていない。
-        *   **プロトコル該当箇所:** Section 3.4.2.1 [5]
-        *   **根拠:** 関連データなし
-    *   **指摘No.:** P-2
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 選択基準 [6] (Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver) に関する記録 (DM.RFICDTC) が欠損している。
-        *   **プロトコル該当箇所:** Section 3.4.2.1 [6]
-        *   **根拠:** DM.RFICDTC=null
-    *   **指摘No.:** P-3
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **内容:** Screening 1 (Day -65) におけるALT (135 U/L)、AST (145 U/L) の高値は、除外基準 [27b] (Laboratory test values exceeding the Lilly Reference Range III for... SGOT, SGPT) に抵触する可能性がある。
+        *   **重要度:** Major
+        *   **逸脱の可能性:** Screening時のALT/AST高値により、除外基準 [27b] に抵触していた可能性がある。再検査で正常化したため最終的に組み入れられたと推測されるが、逸脱と判断されなかった根拠の記録が必要。
         *   **プロトコル該当箇所:** Section 3.4.2.2 [27b]
-        *   **根拠:** LB.LBTESTCD='ALT', LB.LBORRES='135', LB.LBORNRHI='43', LB.LBNRIND='HIGH', LB.LBDY=-65; LB.LBTESTCD='AST', LB.LBORRES='145', LB.LBORNRHI='36', LB.LBNRIND='HIGH', LB.LBDY=-65
+        *   **根拠:** LB.LBTESTCD='ALT'/'AST' (Day -65) の値。
+    *   **指摘No.:** P-2
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 除外基準 [28b] の確認に必要な Folate の検査データが欠損しており、適格性評価が不十分であった可能性がある。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [28b]
+        *   **根拠:** LBデータに LBTESTCD='FOLATE' のレコードが存在しない。
+    *   **指摘No.:** P-3
+        *   **重要度:** Major
+        *   **逸脱の可能性:** Screening時に実施すべきUrinalysisの一部項目 (Protein, Blood, Nitrite, Microscopic examination) が未測定または未報告であり、プロトコル規定の安全性評価が遵守されていない可能性がある。
+        *   **プロトコル該当箇所:** Section 3.9.3.3 Table LZZT.1
+        *   **根拠:** LBデータに Visit 1 における該当 LBTESTCD のレコードが存在しない。
     *   **指摘No.:** P-4
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Visit 12 (Week 24) の実施日 (Day 161) が、予定日 (Planned Day 168) より7日早く、プロトコルで規定された許容範囲 (±4日) を逸脱している。
-        *   **プロトコル該当箇所:** Section 3.1 (Figure LZZT.1), Section 3.9 (Visit schedule description)
-        *   **根拠:** SV.VISITNUM=12, SV.SVSTDTC='2013-08-09' (Day 161); TV.VISITNUM=12, TV.VISITDY=168
+        *   **重要度:** Major
+        *   **逸脱の可能性:** Visit 12 (Week 24) の実施日 (Day 161) が、プロトコルで規定されたVisit Window (Day 164-172) から逸脱している。
+        *   **プロトコル該当箇所:** Section 3.1 (Visit Window規定)
+        *   **根拠:** SV.VISITNUM=12, SV.SVSTDTC='2013-08-09' (Day 161); TV.VISITNUM=12, TV.VISITDY=168.
+
+*   **有効性評価観点からの指摘事項:**
+    *   **指摘No.:** E-1
+        *   **重要度:** Minor
+        *   **内容:** DAD (Disability Assessment for Dementia) の個々の項目において、ベースラインからWeek 24にかけて改善・悪化・変動が見られ、一貫性に欠けるように見える箇所がある。ただし、Placebo群であり、全体スコアでの評価が主となるため、現時点での臨床的意義は限定的と考えられる。Visit 12の実施日逸脱 (P-4) が影響している可能性も考慮。
+        *   **根拠:** QSドメインの DAITM** レコード (例: DAITM20, 24, 29, 30-33, 34, 37-39)。
 
 ## 3. 疑義事項
 
 *   **医療機関へのクエリ:**
-    *   **クエリNo.:** Q-1 (関連指摘No.: M-1, P-3, D-4)
-        *   **臨床試験結果/安全性への影響度合い:** Critical
-        *   **医療機関への問い合わせ文面:** "Screening 1 (Day -65) の臨床検査にてALT 135 U/L (基準値上限43)、AST 145 U/L (基準値上限36) と高値が報告されています。これは除外基準[27b]に抵触する可能性があります。Unscheduled Visit (Day -9) では正常化していますが、登録時の適格性判断の根拠についてご確認ください。また、SUPPLBデータでは、これらの検査値に基づくLBTMSHIの値が計算値と大きく異なります。元データをご確認ください。"
-        *   **判断理由:** 選択/除外基準の遵守は試験の妥当性と被験者の安全性に不可欠であり、重大な逸脱の可能性があるため。SUPPLBデータの不整合も併せて確認が必要。
+    *   **クエリNo.:** Q-1 (関連指摘No.: D-2)
+        *   **重要度:** Minor
+        *   **医療機関への問い合わせ文面:** "CMドメインのKaopectate (CMSEQ=13) について、薬剤の投与日 (CMSTDTC/CMENDTC) は2013-03-05 (Day 4) と記録されていますが、収集日 (CMDTC) が2013-03-14 (Day 13) となっています。収集日が正しいかご確認ください。もし記録誤りであれば修正をお願いします。"
+        *   **判断理由:** データ収集日と実際のイベント日の乖離はデータの正確性に影響するため確認が必要。
         *   **判断根拠:**
-            *   LB.LBTESTCD='ALT', LB.LBORRES='135', LB.LBORNRHI='43', LB.LBNRIND='HIGH', LB.LBDY=-65
-            *   LB.LBTESTCD='AST', LB.LBORRES='145', LB.LBORNRHI='36', LB.LBNRIND='HIGH', LB.LBDY=-65
-            *   SUPPLB.QNAM='LBTMSHI', SUPPLB.IDVARVAL='       3', SUPPLB.QVAL='0.3'
-            *   SUPPLB.QNAM='LBTMSHI', SUPPLB.IDVARVAL='       4', SUPPLB.QVAL='0.7'
-            *   プロトコル該当箇所: Section 3.4.2.2 [27b]
-    *   **クエリNo.:** Q-2 (関連指摘No.: M-2, D-3)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Day -9に低ナトリウム血症 (133 mEq/L)、Day 27に高ナトリウム血症 (146 mEq/L)、Anisocytes異常、MCV高値 (101 fL) が報告されています。これらの異常に関連する有害事象は報告されていません。これらの検査値異常の原因、臨床的意義、および有害事象報告の要否について評価・ご確認ください。"
-        *   **判断理由:** 臨床的に意義のある検査値異常が複数認められ、その原因評価と有害事象としての報告要否を確認する必要があるため。
+            *   CM.CMSEQ=13, CM.CMSTDTC='2013-03-05', CM.CMENDTC='2013-03-05', CM.CMDTC='2013-03-14'
+    *   **クエリNo.:** Q-2 (関連指摘No.: D-4)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "CMドメインのKaopectate (CMSEQ=13) について、薬剤名が標準化されておらず (CMDECOD=UNCODED)、適応 (CMINDC) および薬剤分類 (CMCLAS) が欠損しています。AEとしてDiarrhoeaが報告されていますが、本薬剤の適応がDiarrhoeaであったかご確認ください。また、可能であれば標準薬剤名をご提供ください。"
+        *   **判断理由:** 併用薬の正確な特定と適応の確認は安全性評価に重要であるため。
         *   **判断根拠:**
-            *   LB.LBTESTCD='SODIUM', LB.LBORRES='133', LB.LBNRIND='LOW', LB.LBDY=-9
-            *   LB.LBTESTCD='SODIUM', LB.LBORRES='146', LB.LBNRIND='HIGH', LB.LBDY=27
-            *   LB.LBTESTCD='ANISO', LB.LBORRES='1', LB.LBNRIND='ABNORMAL', LB.LBDY=27
-            *   LB.LBTESTCD='MCV', LB.LBORRES='101', LB.LBNRIND='HIGH', LB.LBDY=27
-            *   AEドメインに関連報告なし
-    *   **クエリNo.:** Q-3 (関連指摘No.: M-3, D-3)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Baseline (Day 1) のバイタルサインにて、臥位から立位への体位変換時に収縮期血圧が22mmHg低下し、起立性低血圧の可能性が示唆されます。関連する有害事象（めまい、ふらつき等）は報告されていません。この所見の臨床的評価および有害事象報告の要否についてご確認ください。"
-        *   **判断理由:** 起立性低血圧は転倒リスクを高める可能性があり、患者の安全性に関わるため。有害事象としての評価・報告が必要か確認するため。
+            *   CM.CMSEQ=13, CM.CMDECOD='UNCODED', CM.CMINDC='', CM.CMCLAS='UNCODED'
+            *   AE.AETERM='DIARRHOEA' (AESEQ=1)
+    *   **クエリNo.:** Q-3 (関連指摘No.: D-8, P-2)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "Screening Visit 1で測定が必要な検査項目のうち、Folateの結果が報告されていません。プロトコル 3.4.2.2 [28b] の除外基準確認に必要です。測定状況と結果についてご確認ください。もし未測定の場合は理由をお知らせください。"
+        *   **判断理由:** 選択/除外基準の遵守確認に必須の検査データが欠損しているため。
         *   **判断根拠:**
-            *   VS.VSTESTCD='SYSBP', VS.VSPOS='SUPINE', VS.VSORRES='130', VS.VSDY=1
-            *   VS.VSTESTCD='SYSBP', VS.VSPOS='STANDING', VS.VSTPT='AFTER STANDING FOR 1 MINUTE', VS.VSORRES='108', VS.VSDY=1
-            *   AEドメインに関連報告なし
-    *   **クエリNo.:** Q-4 (関連指摘No.: P-4)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** "Visit 12 (Week 24) は予定日 (Day 168) より7日早い Day 161 に実施されており、プロトコル規定の許容範囲 (±4日) を逸脱しています。逸脱理由についてご確認ください。"
-        *   **判断理由:** プロトコルで規定された評価スケジュールからの逸脱は、データの解釈に影響を与える可能性があるため。
+            *   LBデータに LBTESTCD='FOLATE' のレコードが存在しない
+            *   プロトコル該当箇所: Section 3.4.2.2 [28b]
+    *   **クエリNo.:** Q-4 (関連指摘No.: D-9, P-3)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "Screening Visit 1で実施されたUrinalysisについて、プロトコル 3.9.3.3 Table LZZT.1 に記載のある Protein, Blood, Nitrite, Microscopic examination の結果が報告されていません。測定状況と結果についてご確認ください。もし未測定の場合は理由をお知らせください。"
+        *   **判断理由:** プロトコルで規定されたScreening時の安全性評価項目が欠損しているため。
+        *   **判断根拠:**
+            *   LBデータに Visit 1 における該当 LBTESTCD のレコードが存在しない
+            *   プロトコル該当箇所: Section 3.9.3.3 Table LZZT.1
+    *   **クエリNo.:** Q-5 (関連指摘No.: P-4)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "Visit 12 (Week 24) の実施日 (SVSTDTC = 2013-08-09, Day 161) が、プロトコル 3.1 で規定されたVisit Window (計画日 Day 168 ± 4日 = Day 164-172) から逸脱しています。逸脱理由についてご確認ください。"
+        *   **判断理由:** 主要評価時期のVisit Window逸脱は有効性評価の信頼性に影響を与える可能性があるため、理由の確認が必要。
         *   **判断根拠:**
             *   SV.VISITNUM=12, SV.SVSTDTC='2013-08-09' (Day 161)
             *   TV.VISITNUM=12, TV.VISITDY=168
-            *   プロトコル該当箇所: Section 3.9
+            *   プロトコル該当箇所: Section 3.1
 
 *   **内部確認事項 (問い合わせ不要):**
-    *   **確認事項No.:** I-1 (関連指摘No.: D-1)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** LBドメイン Unscheduled 1.1 Visit (VISITNUM=1.1) の VISITDY が欠損している。LBDY (-9) は存在するため、VISITDYをLBDYから補完するか、欠損のままとするか内部で決定する。
-        *   **判断理由:** LBDYが存在するため、データの解釈への影響は小さい。データクリーニング方針に基づき対応を決定。
+    *   **確認事項No.:** I-1 (関連指摘No.: M-1, P-1)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** Screening Visit 1 (Day -65) でALT (135 U/L), AST (145 U/L) が基準値上限を大幅に超えていたが、Unscheduled Visit 1.1 (Day -9) で正常化し、治験参加が継続された。プロトコル 3.4.2.2 [27b] の除外基準に抵触する可能性があったが、再検査結果に基づき適格と判断された経緯を記録する。
+        *   **判断理由:** 選択基準に関する重要な逸脱の可能性があったが、治験開始前に解決しており、治験も完了しているため、医療機関への問い合わせは不要と判断。経緯の記録は必要。
         *   **判断根拠:**
-            *   LB.VISITNUM=1.1, LB.VISITDY=null, LB.LBDY=-9
-    *   **確認事項No.:** I-2 (関連指摘No.: D-2)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** MHドメインおよびCMドメインにおいて、一部レコードでコーディング関連変数および日付変数が欠損している。コーディング作業の進捗確認、および欠損情報の回収要否を検討する。
-        *   **判断理由:** データ完全性の観点から確認が必要だが、現時点で安全性や有効性評価への大きな影響はないと判断。
+            *   LB.LBTESTCD='ALT'/'AST' (Day -65, Day -9)
+            *   プロトコル該当箇所: Section 3.4.2.2 [27b]
+    *   **確認事項No.:** I-2 (関連指摘No.: M-2)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** Week 4 (Day 27) にMCV (101 fL) の軽度高値とAnisocytes (Abnormal) が認められたが、その後の検査では正常化している。臨床的意義は低いと判断。記録として残す。
+        *   **判断理由:** 軽度かつ一過性の検査値異常であり、他のデータとの関連も薄いため問い合わせ不要。記録として残す。
         *   **判断根拠:**
-            *   MHドメイン、CMドメインの該当レコード
-    *   **確認事項No.:** I-3 (関連指摘No.: P-1)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** 選択基準 [5] (CNS imaging) の適合性に関する記録を確認する。Source Data Verification (SDV) 等で確認済みか、別途確認が必要か判断する。
-        *   **判断理由:** 選択基準の確認は重要だが、他の基準は満たしており、試験も完了しているため緊急性は低い。記録の有無を確認する。
+            *   LB.LBTESTCD='MCV', LB.LBNRIND='HIGH' (Day 27)
+            *   LB.LBTESTCD='ANISO', LB.LBNRIND='ABNORMAL' (Day 27)
+    *   **確認事項No.:** I-3 (関連指摘No.: D-1)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** CMドメインにて、Vitamin C (CMSEQ=1など) および Vitamin E (CMSEQ=2など) の開始日 (CMSTDTC) が '2009' と年のみ記録されており、Study Day (CMSTDY) が欠損している。長期使用のサプリメントであり、治験期間中の使用は確認されているため、現時点での問い合わせは不要と判断。記録として残す。
+        *   **判断理由:** データの完全性の問題だが、長期使用のサプリメントであり、治験の主要評価への影響は小さいと判断されるため。
         *   **判断根拠:**
-            *   プロトコル該当箇所: Section 3.4.2.1 [5]
-    *   **確認事項No.:** I-4 (関連指摘No.: P-2)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** 選択基準 [6] (Informed consent) の取得記録 (DM.RFICDTC) が欠損している。SDV等で同意取得が確認されているか、記録の修正が必要か確認する。
-        *   **判断理由:** 同意取得は必須だが、試験が完了していることから取得自体はされている可能性が高い。記録の完全性の問題として対応。
+            *   CM.CMTRT='VITAMIN C'/'VITAMIN E', CM.CMSTDTC='2009', CM.CMSTDY=null
+    *   **確認事項No.:** I-4 (関連指摘No.: D-3)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** CMドメインにて、Norvasc, Vitamin C, Vitamin E の Indication (CMINDC) が欠損している。NorvascはMHの心疾患、Vitamin C/Eは"PROPHYLAXIS OR NON-THERAPEUTIC USE"との記載から、欠損の影響は限定的と判断。記録として残す。
+        *   **判断理由:** 適応が他情報から推測可能、または非治療目的であるため、問い合わせの優先度は低い。
         *   **判断根拠:**
-            *   DM.RFICDTC=null
-            *   プロトコル該当箇所: Section 3.4.2.1 [6]
-    *   **確認事項No.:** I-5 (関連指摘No.: D-4)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **疑義事項/確認内容:** SUPPLB.LBTMSHI の値が計算値と異なる問題について、計算ロジックの誤りか、データ入力/変換エラーか原因を調査し、必要に応じて修正する。
-        *   **判断理由:** 派生変数とはいえ、元データとの整合性が取れていないのは問題。データの信頼性に関わるため確認・修正が必要。
+            *   CM.CMTRT='NORVASC'/'VITAMIN C'/'VITAMIN E', CM.CMINDC=''
+            *   MH.MHTERM='VERBATIM_0409' (Coronary Artery Disease)
+            *   CM.CMINDC='PROPHYLAXIS OR NON-THERAPEUTIC USE' (Vitamin C/E)
+    *   **確認事項No.:** I-5 (関連指摘No.: D-5)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** CMドメインにて、Vitamin C (CMSEQ=1など) および Vitamin E (CMSEQ=2など) の標準薬剤名 (CMDECOD) および薬剤分類 (CMCLAS) が 'UNCODED' となっている。WHODrug等を用いた標準化が必要。内部データマネジメント/コーディングチームへ確認依頼。
+        *   **判断理由:** データ標準化は解析に必須であり、内部での対応が必要なため。
         *   **判断根拠:**
-            *   SUPPLB.QNAM='LBTMSHI' のレコードと対応するLBレコード
+            *   CM.CMTRT='VITAMIN C'/'VITAMIN E', CM.CMDECOD='UNCODED', CM.CMCLAS='UNCODED'
+    *   **確認事項No.:** I-6 (関連指摘No.: D-6)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** AEドメインにて、Diarrhoea (AESEQ=1) および Insomnia (AESEQ=2) のMedDRA関連変数 (AELLTCD, AEPTCD, AEHLTCD, AEHLGTCD, AEBDSYCD, AESOCCD) が欠損している。MedDRAコーディングの実施状況を確認し、未完了であれば対応を依頼。
+        *   **判断理由:** MedDRAコーディングは安全性解析に必須であり、内部での対応が必要なため。
+        *   **判断根拠:**
+            *   AE.AESEQ=1, 2 における各種コード変数が null
+    *   **確認事項No.:** I-7 (関連指摘No.: D-7)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** MHドメインにて、一部の既往歴 (MHTERM='ALZHEIMER'S DISEASE', 'VERBATIM_XXXX') でMedDRA関連変数 (MHLLT, MHDECOD, MHHLT, MHHLGT) が欠損またはVerbatimのままとなっている。MedDRAコーディングの実施状況を確認し、未完了であれば対応を依頼。
+        *   **判断理由:** 背景情報の標準化は解析に重要であり、内部での対応が必要なため。
+        *   **判断根拠:**
+            *   MHドメインの各レコードにおけるコード変数
+    *   **確認事項No.:** I-8 (関連指摘No.: E-1)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** DADの個々の項目 (DAITM20, 24, 29, 30-33, 34, 37-39) で、ベースラインからWeek 24にかけて改善・悪化・変動が見られ、一貫性に欠けるように見える箇所がある。Placebo群であり個別の変動は起こりうるため、現時点では問い合わせ不要。全体スコアおよびサブスコアでの評価を注視する。Visit 12の実施日逸脱 (P-4) が影響している可能性も考慮。
+        *   **判断理由:** Placebo群であり、個々の項目の変動は許容範囲と考えられる。全体スコアでの評価が主となるため。
+        *   **判断根拠:**
+            *   QSドメインの DAITM** レコード
+            *   DM.ACTARM='Placebo'
 
 # 01-701-1111のデータ統合レビュー報告
 
 ## 1. 症例サマリー
 
 *   **患者背景:**
-    *   本症例は81歳、女性、人種: WHITE、民族: NOT HISPANIC OR LATINO の被験者である。
-    *   治験薬として Xanomeline Low Dose (54 mg patch QD) が割り付けられ、実際に投与された (ARMCD: Xan_Lo, ACTARMCD: Xan_Lo)。
-    *   治験薬の初回投与日 (RFSTDTC) は 2012-09-07 (Day 1)、最終投与日 (RFXENDTC) は 2012-09-16 (Day 10) であった。
-    *   有害事象により Day 11 (2012-09-17) に治験を中止した。最終的な試験参加終了日 (RFPENDTC) は Day 169 (2013-02-22) の Retrieval Visit であった。
-    *   主要な既往歴として、アルツハイマー病 (Primary Diagnosis, 2009年発症)、高血圧、甲状腺機能低下症、変形性関節症、骨粗鬆症、白内障手術歴などが報告されている。
+    81歳、女性、白人、非ヒスパニックまたはラティーノ (DM)。アルツハイマー病の既往歴あり (MH, 2009年発症)。教育歴22年 (SC)。
 
 *   **イベント推移:**
-    *   2012-07-08 (Day -61): 有害事象「LOCALISED INFECTION」(Moderate) 発現。併用薬「KEFLEX」開始。
-    *   2012-08-25 (Day -13): Screening Visit 1。
-        *   臨床検査(LB): RBC (Erythrocytes) が基準値下限未満 (LOW, 3.8 TI/L)。
-        *   MMSEスコア 23点、Hachinski Ischemic Scaleスコア 1点。
-    *   2012-09-02 (Day -5): 有害事象「ERYTHEMA」(Mild) および「PRURITUS」(Mild) 発現。併用薬「HYDROCORTISONE, TOPICAL」開始。
-    *   2012-09-04 (Day -3): 併用薬「HYDROCORTISONE, TOPICAL」終了。
-    *   2012-09-05 (Day -2): Screening Visit 2。
-    *   2012-09-07 (Day 1): Baseline Visit。治験薬「XANOMELINE」(54 mg patch QD) 投与開始。
-        *   有害事象「ERYTHEMA」および「PRURITUS」が回復/解決 (Outcome: RECOVERED/RESOLVED)。
-        *   有害事象「MICTURITION URGENCY」(Mild) 発現。治験薬との関連性なしと評価。Treatment Emergent。
-    *   2012-09-13 (Day 7): 有害事象「ARTHRALGIA」(Moderate) 発現。治験薬との関連性なしと評価。Treatment Emergent。
-    *   2012-09-13 (Day 7): 有害事象「CELLULITIS」(Moderate) 発現。治験薬との関連性なしと評価。Treatment Emergent。
-    *   2012-09-16 (Day 10): 治験薬「XANOMELINE」投与終了。
-    *   2012-09-17 (Day 11): Week 2 Visit。有害事象により治験中止。
-        *   臨床検査(LB): MCV (Ery. Mean Corpuscular Volume) が基準値上限超過 (HIGH, 101 fL)、RBC (Erythrocytes) が基準値下限未満 (LOW, 3.7 TI/L)、SPGRAV (Specific Gravity) が基準値下限未満 (LOW, 1.004)、ANISO (Anisocytes) が異常 (ABNORMAL, 1)。
-        *   有害事象「LOCALISED INFECTION」、「MICTURITION URGENCY」、「ARTHRALGIA」、「CELLULITIS」は未回復/未解決。
-        *   認知機能評価 (QS): ADAS-Cog(11) スコア 5 (Baseline: 7)。CIBIC+ スコア 4 (No Change)。NPI-X Total スコア 1 (Baseline: 2)。
-    *   2012-09-29 (Day 23): AE Follow-up Visit (Visit 101)。
-    *   2013-02-22 (Day 169): Retrieval Visit (Visit 201)。
-        *   認知機能評価 (QS): ADAS-Cog(11) スコア 9。CIBIC+ スコア 5 (Minimal worsening)。NPI-X Total スコア 45。
+    *   2012年07月08日 (Day -61): 併用薬「KEFLEX」開始 (CM)。同日、有害事象「LOCALISED INFECTION」(Moderate) 発現 (AE, 未回復のまま治験期間中継続)。
+    *   2012年08月25日 (Day -13): スクリーニング1来院 (SV)。MMSE 23点相当 (QS)、Hachinskiスコア 1点 (QS)。身長 158.24 cm (VS)、体重 60.33 kg (VS)。検査にて赤血球数(RBC) 低値 (LB, 3.8 TI/L, 基準値 3.9-5.5)。
+    *   2012年09月02日 (Day -5): 有害事象「ERYTHEMA」(Mild) 発現 (AE)。有害事象「PRURITUS」(Mild) 発現 (AE)。併用薬「HYDROCORTISONE, TOPICAL」開始 (CM)。
+    *   2012年09月04日 (Day -3): 併用薬「HYDROCORTISONE, TOPICAL」終了 (CM)。
+    *   2012年09月05日 (Day -2): スクリーニング2来院 (SV)。
+    *   2012年09月07日 (Day 1): ベースライン来院 (SV)。治験薬「XANOMELINE」54 mg パッチ投与開始 (EX)。体重 59.88 kg (VS)。有害事象「ERYTHEMA」(Mild) および「PRURITUS」(Mild) 回復 (AE)。有害事象「MICTURITION URGENCY」(Mild) 発現 (AE, 未回復)。ADAS-Cog(11) スコア 7 (QS)、NPI-X Total スコア 2 (QS)。
+    *   2012年09月13日 (Day 7): 有害事象「ARTHRALGIA」(Moderate) 発現 (AE, 未回復)。有害事象「CELLULITIS」(Moderate) 発現 (AE, 未回復)。
+    *   2012年09月16日 (Day 10): 治験薬「XANOMELINE」54 mg パッチ投与終了 (EX)。
+    *   2012年09月17日 (Day 11): Week 2 来院 (SV)。有害事象により治験中止 (DS)。体重 60.78 kg (VS)。検査にて赤血球数(RBC) 低値 (LB, 3.7 TI/L)、平均赤血球容積(MCV) 高値 (LB, 101 fL, 基準値 80-100)、尿比重(Specific Gravity) 低値 (LB, 1.004, 基準値 1.006-1.03)、Anisocytes 異常 (LB)。ADAS-Cog(11) スコア 5 (QS)、CIBIC+ スコア 4 (No Change) (QS)、NPI-X Total スコア 1 (QS)。
+    *   2012年09月29日 (Day 23): AEフォローアップ来院 (SV, VISITNUM=101)。
+    *   2013年02月22日 (Day 169): Retrieval来院 (SV, VISITNUM=201)。ADAS-Cog(11) スコア 9 (QS)、CIBIC+ スコア 5 (Minimal worsening) (QS)、NPI-X Total スコア 45 (QS)。
 
 ## 2. 統合レビュー結果
 
 *   **医学的観点からの指摘事項:**
     *   **指摘No.:** M-1
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Day 1に発現した有害事象「MICTURITION URGENCY」(排尿切迫) について、治験薬との関連性(AEREL)が 'NONE' と評価されている。しかし、治験薬 Xanomeline はムスカリン作動薬であり、膀胱平滑筋への作用による排尿切迫は薬理学的に想定される副作用である。一般的な医学的知見に基づくと、治験薬との関連を除外することは困難であり、関連性の再評価が必要である。
-        *   **根拠:** AE.AETERM = 'MICTURITION URGENCY', AE.AESTDY = 1, AE.AEREL = 'NONE'; EX.EXTRT = 'XANOMELINE'; 一般的な医学知識 (ムスカリン作動薬の副作用)
+        *   **重要度:** Major
+        *   **内容:** Day 7に発現した有害事象「ARTHRALGIA」(Moderate) および「CELLULITIS」(Moderate) が治験中止 (Day 11) の原因と記録されている (DS, RELREC)。しかし、AEドメインにおける治験薬との関連性評価 (AEREL) が "NONE" となっている。治験薬投与中に発現し、中止に至った有害事象の関連性評価が "NONE" であることは医学的に疑問があり、評価の再確認が必要。
+        *   **根拠:** AE.AETERM = 'ARTHRALGIA', AE.AESEV = 'MODERATE', AE.AESTDY = 7, AE.AEREL = 'NONE'; AE.AETERM = 'CELLULITIS', AE.AESEV = 'MODERATE', AE.AESTDY = 7, AE.AEREL = 'NONE'; DS.DSDECOD = 'ADVERSE EVENT', DS.DSSTDY = 11; RELREC.RDOMAIN = 'AE', RELREC.IDVARVAL = '   7', RELREC.RELID = '01-701-1111-E16'; RELREC.RDOMAIN = 'DS', RELREC.IDVARVAL = '   1', RELREC.RELID = '01-701-1111-E16'; プロトコル 3.9.3.2.1 (AE報告要件)。
     *   **指摘No.:** M-2
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Day 11に有害事象を理由に治験が中止されている (DS.DSTERM = 'ADVERSE EVENT')。しかし、中止の直接的な原因となった有害事象が特定されていない。Day 11時点で複数の有害事象 (LOCALISED INFECTION, ARTHRALGIA, CELLULITIS, MICTURITION URGENCY) が未回復であり、特に CELLULITIS (蜂窩織炎) は重症度が Moderate であるため、中止の要因となった可能性が高いと考えられるが、明確化が必要である。
-        *   **根拠:** DS.DSTERM = 'ADVERSE EVENT', DS.DSSTDY = 11; AE.AESEQ in [3, 6, 7, 8], AE.AEOUT = 'NOT RECOVERED/NOT RESOLVED'
+        *   **重要度:** Minor
+        *   **内容:** スクリーニング時 (Day -13) および Week 2 (Day 11) で赤血球数 (RBC) が基準値下限を下回っている (LB.LBTESTCD='RBC', LB.LBNRIND='LOW')。Week 2 ではさらに平均赤血球容積 (MCV) が基準値上限を上回っている (LB.LBTESTCD='MCV', LB.LBNRIND='HIGH')。これは大球性貧血を示唆する可能性がある。高齢者やアルツハイマー病患者ではビタミンB12や葉酸欠乏による貧血も考慮されるが、スクリーニング時のVitB12, Folateは基準値内。治験薬との関連は不明だが、臨床的な評価が必要。
+        *   **根拠:** LB.LBTESTCD = 'RBC', LB.LBDY = -13, LB.LBSTRESC = '3.8', LB.LBNRIND = 'LOW'; LB.LBTESTCD = 'RBC', LB.LBDY = 11, LB.LBSTRESC = '3.7', LB.LBNRIND = 'LOW'; LB.LBTESTCD = 'MCV', LB.LBDY = 11, LB.LBSTRESC = '101', LB.LBNRIND = 'HIGH'; LB.LBTESTCD = 'VITB12', LB.LBDY = -13, LB.LBNRIND = 'NORMAL'; LB.LBTESTCD = 'FOLATE' (データなし、プロトコル 3.4.2.2[28b]で評価項目)。一般的な医学的知見。
     *   **指摘No.:** M-3
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 有害事象として報告された「LOCALISED INFECTION」(AESEQ=3) の重症度(AESEV)は 'MODERATE' であるが、既往歴(MH)として報告された同名の「LOCALISED INFECTION」(MHSEQ=6) の重症度(MHSEV)は 'MILD' となっており、評価に不一致が見られる。
-        *   **根拠:** AE.AETERM = 'LOCALISED INFECTION', AE.AESEV = 'MODERATE', AE.AESTDY = -61; MH.MHTERM = 'LOCALISED INFECTION', MH.MHSEV = 'MILD'
+        *   **重要度:** Minor
+        *   **内容:** Week 2 (Day 11) の尿検査で比重 (Specific Gravity) が基準値下限を下回っている (LB.LBTESTCD='SPGRAV', LB.LBNRIND='LOW')。尿濃縮力の低下を示唆する可能性があり、脱水や腎機能との関連を考慮する必要がある。ただし、同日のBUN, Creatinineは基準値内。
+        *   **根拠:** LB.LBTESTCD = 'SPGRAV', LB.LBDY = 11, LB.LBSTRESC = '1.004', LB.LBNRIND = 'LOW'; LB.LBTESTCD = 'BUN', LB.LBDY = 11, LB.LBNRIND = 'NORMAL'; LB.LBTESTCD = 'CREAT', LB.LBDY = 11, LB.LBNRIND = 'NORMAL'。一般的な医学的知見。
     *   **指摘No.:** M-4
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** Day 11の血液検査において、MCV高値 (101 fL)、RBC低値 (3.7 TI/L)、Anisocytosis (ABNORMAL) が認められた。Screening時からRBC低値は存在したが、MCV高値とAnisocytosisはDay 11で新たに出現または悪化している。これらの血液学的変化の臨床的意義（例：大球性貧血の可能性、薬剤性の可能性など）について評価が必要である。
-        *   **根拠:** LB.LBTESTCD = 'MCV', LB.LBDY = 11, LB.LBNRIND = 'HIGH'; LB.LBTESTCD = 'RBC', LB.LBDY = 11, LB.LBNRIND = 'LOW'; LB.LBTESTCD = 'ANISO', LB.LBDY = 11, LB.LBNRIND = 'ABNORMAL'
+        *   **重要度:** Minor
+        *   **内容:** Week 2 (Day 11) のバイタルサイン測定において、臥位から立位への体位変換後に収縮期血圧が低下する傾向が見られる (Supine 125 mmHg -> Standing 1min 112 mmHg -> Standing 3min 110 mmHg)。起立性低血圧の可能性を考慮する必要がある。治験薬 (Xanomeline) はコリン作動薬であり、一般的に徐脈や血圧低下を引き起こす可能性があるため、関連を注視すべき。
+        *   **根拠:** VS.VSTESTCD = 'SYSBP', VS.VSPOS = 'SUPINE', VS.VSDY = 11, VS.VSSTRESC = '125'; VS.VSTESTCD = 'SYSBP', VS.VSPOS = 'STANDING', VS.VSTPT = 'AFTER STANDING FOR 1 MINUTE', VS.VSDY = 11, VS.VSSTRESC = '112'; VS.VSTESTCD = 'SYSBP', VS.VSPOS = 'STANDING', VS.VSTPT = 'AFTER STANDING FOR 3 MINUTES', VS.VSDY = 11, VS.VSSTRESC = '110'。一般的な医学的知見 (コリン作動薬の副作用)。
 
 *   **データ整合性観点からの指摘事項:**
     *   **指摘No.:** D-1
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 有害事象「ERYTHEMA」および「PRURITUS」について、同一の開始日(AESTDY = -5)を持つレコードが複数存在する (ERYTHEMA: AESEQ 1, 4; PRURITUS: AESEQ 2, 5)。AESEQ 1, 2 は終了日・転帰が不明瞭で収集日がDay -2、AESEQ 4, 5 は終了日がDay 1で転帰が回復済み、収集日がDay 11となっている。これはDay 11のVisitで過去のAEの転帰を更新した記録と思われるが、データの重複または記録方法の誤りの可能性がある。
-        *   **根拠:** AE.AETERM = 'ERYTHEMA', AE.AESTDY = -5, AE.AESEQ in [1, 4]; AE.AETERM = 'PRURITUS', AE.AESTDY = -5, AE.AESEQ in [2, 5]
+        *   **重要度:** Major
+        *   **内容:** CMドメインにおいて、継続使用されている薬剤 (KEFLEX, LISINOPRIL, MOTRIN, PREMARIN, PROVERA, SYNTHROID) がVisitごとに別レコードとして記録されているように見える (CMSEQが異なる)。CMENDTC/CMENDYが多くのレコードで欠損しており、本来は開始日と終了日で1レコードとして表現されるべき。データ構造が不適切であり、正確な併用薬使用期間の把握が困難。
+        *   **根拠:** CMドメインのデータ構造。CM.USUBJID = '01-701-1111' の複数レコード。SDTM IGのCMドメイン構造の原則。
     *   **指摘No.:** D-2
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **内容:** AEドメインにおいて、MedDRAコーディングに関連する変数 (AELLT, AELLTCD, AEDECOD, AEPTCD, AEHLT, AEHLTCD, AEHLGT, AEHLGTCD, AEBDSYCD, AESOCCD) が全てのレコードで欠損している。有害事象の標準化と集計・分析に必須の情報であり、コーディングプロセスの確認が必要。
-        *   **根拠:** AEドメインの該当変数列が全て欠損
+        *   **重要度:** Major
+        *   **内容:** AEドメインにおいて、治験薬投与中に発現し、治験中止理由と関連付けられている有害事象「ARTHRALGIA」(AESEQ=7) および「CELLULITIS」(AESEQ=8) の関連性評価 (AEREL) が "NONE" となっている。治験中止理由との整合性が取れておらず、データの信頼性に疑義がある。
+        *   **根拠:** AE.AEREL = 'NONE' (for AESEQ=7, 8); DS.DSDECOD = 'ADVERSE EVENT'; RELREC (AE.AESEQ=7 と DS.DSSEQ=1 の関連)。
     *   **指摘No.:** D-3
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** CMドメインにおいて、多くのレコードで薬剤の標準名(CMDECOD)、適応症(CMINDC)、薬剤分類(CMCLAS)が欠損しているか、'UNCODED' となっている。データ品質の観点から、可能な限り情報を補完することが望ましい。
-        *   **根拠:** CMドメインの該当変数列に欠損または 'UNCODED' が多数存在
+        *   **重要度:** Minor
+        *   **内容:** AEドメインにおいて、「ERYTHEMA」(AESEQ=1, 4) および「PRURITUS」(AESEQ=2, 5) が重複して記録されているように見える。開始日(AESTDTC)と終了日(AEENDTC)は同じだが、記録日(AEDTC)と転帰(AEOUT)が異なる。Visit 2 (Day -2) 時点の記録では未回復、Visit 4 (Day 11) 時点の記録では回復となっている。同一事象の追跡記録が別レコードになっている可能性、あるいは再発の可能性もあるが、記録方法が不明瞭。
+        *   **根拠:** AE.AETERM = 'ERYTHEMA', AE.AESEQ = 1, 4; AE.AETERM = 'PRURITUS', AE.AESEQ = 2, 5。
     *   **指摘No.:** D-4
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **内容:** 併用薬「PREMARIN」および「PROVERA」のレコードにおいて、Dose Units (CMDOSU) および Dosing Frequency (CMDOSFRQ) が欠損している。
-        *   **根拠:** CM.CMTRT = 'PREMARIN', CM.CMDOSU = '', CM.CMDOSFRQ = ''; CM.CMTRT = 'PROVERA', CM.CMDOSU = '', CM.CMDOSFRQ = ''
+        *   **重要度:** Minor
+        *   **内容:** CMドメインにおいて、多くの薬剤で標準化された薬剤名 (CMDECOD) および薬剤分類 (CMCLAS) が "UNCODED" となっている。データ解析のためには標準辞書 (例: WHODRUG) によるコーディングが必要。
+        *   **根拠:** CM.CMDECOD = 'UNCODED', CM.CMCLAS = 'UNCODED' のレコード多数。
+    *   **指摘No.:** D-5
+        *   **重要度:** Minor
+        *   **内容:** CMドメインにおいて、PREMARIN (CMSEQ=2, 8, 15, 21, 27, 33) および PROVERA (CMSEQ=3, 9, 16, 22, 28, 34) の用法 (CMDOSFRQ) が欠損している。
+        *   **根拠:** CM.CMTRT = 'PREMARIN' or 'PROVERA', CM.CMDOSFRQ = (Missing)。
+    *   **指摘No.:** D-6
+        *   **重要度:** Minor
+        *   **内容:** CMドメインにおいて、長期併用薬の Study Day (CMSTDY, CMENDY) が一部欠損している。CMSTDTC が年のみ (例: '2006', '1983') の場合に計算できていない。
+        *   **根拠:** CM.CMSTDTC = '2006', CM.CMSTDY = null など。
+    *   **指摘No.:** D-7
+        *   **重要度:** Minor
+        *   **内容:** RELRECドメインで、治験中止理由のAE (AESEQ=7, ARTHRALGIA) とDSレコード (DSSEQ=1) が RELID='01-701-1111-E16' で関連付けられている。しかし、AE.AESPID は 'E16' であり、RELID と一致しているように見えるが、AE.AESEQ=8 (CELLULITIS) も Day 7 に発現しており、中止との関連が不明確。RELREC の関連付けの正確性、および中止理由となったAEの特定が必要。
+        *   **根拠:** RELREC.RELID = '01-701-1111-E16'; AE.AESPID = 'E16' (for AESEQ=7); AE.AESTDY = 7 (for AESEQ=7, 8); DS.DSSTDY = 11。
 
 *   **プロトコル遵守観点からの指摘事項 (逸脱の可能性):**
     *   **指摘No.:** P-1
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 選択基準[5]「CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year」の遵守を確認できるデータがない。
-        *   **プロトコル該当箇所:** Section 3.4.2.1 Inclusion Criteria [5]
-        *   **根拠:** 関連するデータドメイン（例: IE, 手順記録など）が存在しないか、情報が記録されていない。
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 選択基準[5] (CNS imaging compatible with AD within past 1 year) の確認記録がない。
+        *   **プロトコル該当箇所:** Section 3.4.2.1 [5]
+        *   **根拠:** MHドメインや他のドメインにCNS imagingに関する記載が見当たらない。
     *   **指摘No.:** P-2
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** 除外基準[16b]「Evidence from ECG recording at screening of any listed condition」の遵守を確認できるデータがない。Screening時のECG実施・評価記録が必要。
-        *   **プロトコル該当箇所:** Section 3.4.2.2 Exclusion Criteria [16b]
-        *   **根拠:** ECGドメインが存在しないか、Screening Visit (Visit 1 or 2) のECGデータが記録されていない。
+        *   **重要度:** Major
+        *   **逸脱の可能性:** 除外基準[16b] (Screening ECG findings) の確認記録がない。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [16b]
+        *   **根拠:** VSドメインや他のドメインにScreening ECGの結果に関する記載が見当たらない。
     *   **指摘No.:** P-3
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **逸脱の可能性:** 除外基準[25]「A history within the last 5 years of a primary or recurrent malignant disease (with exceptions...)」について、既往歴(MH)に「BASAL CELL CARCINOMA」(2007年発症) が存在する。これがプロトコル記載の例外規定（切除済み等）に該当するか確認が必要。
-        *   **プロトコル該当箇所:** Section 3.4.2.2 Exclusion Criteria [25]
-        *   **根拠:** MH.MHTERM = 'BASAL CELL CARCINOMA', MH.MHSTDTC = '2007'
+        *   **重要度:** Minor
+        *   **逸脱の可能性:** 除外基準[27b] (Laboratory test values exceeding reference range)。スクリーニング時のRBC低値が臨床的に有意でないと判断されたかどうかの記録がない。プロトコルでは逸脱が臨床的に有意でない場合、医師の判断を文書化する必要があると規定されている。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [27b]
+        *   **根拠:** LB.LBTESTCD = 'RBC', LB.LBDY = -13, LB.LBNRIND = 'LOW'。医師の判断に関する記録がデータ上ない。
     *   **指摘No.:** P-4
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **逸脱の可能性:** 除外基準[27b]「Laboratory test values exceeding the Lilly Reference Range III...」について、Screening時(Day -13)のRBCが基準値下限未満(LOW)であった。これが除外基準に抵触しないと判断された根拠が必要。
-        *   **プロトコル該当箇所:** Section 3.4.2.2 Exclusion Criteria [27b]
-        *   **根拠:** LB.LBTESTCD = 'RBC', LB.LBDY = -13, LB.LBNRIND = 'LOW'
+        *   **重要度:** Minor
+        *   **逸脱の可能性:** 除外基準[31b][v] (Estrogen supplements)。PREMARIN (結合型エストロゲン) を使用しているが、登録前3ヶ月間の用量安定性に関する確認記録がない。
+        *   **プロトコル該当箇所:** Section 3.4.2.2 [31b][v]
+        *   **根拠:** CM.CMTRT = 'PREMARIN', CM.CMSTDTC = '1996'。用量安定性に関する記録がデータ上ない。
     *   **指摘No.:** P-5
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **逸脱の可能性:** プロトコルのSchedule of Events (Attachment LZZT.1) では、Visit 4 (Week 2) でECGを実施することになっているが、対応するデータが見当たらない。評価スケジュールの逸脱の可能性がある。
-        *   **プロトコル該当箇所:** Attachment LZZT.1 Schedule of Events
-        *   **根拠:** ECGドメインが存在しないか、Visit 4 のECGデータが記録されていない。
+        *   **重要度:** Critical
+        *   **逸脱の可能性:** 有害事象による早期治験中止 (Day 11)。プロトコルでは26週間の投与期間が計画されている。
+        *   **プロトコル該当箇所:** Section 3.1 (Study Design), Section 3.10.1 (Discontinuations)
+        *   **根拠:** DS.DSDECOD = 'ADVERSE EVENT', DS.DSSTDY = 11; EX.EXENDY = 10。
+
+*   **有効性評価観点からの指摘事項:**
+    *   **指摘No.:** E-1
+        *   **重要度:** Major
+        *   **内容:** 治験中止後のRetrieval Visit (Day 169) において、副次評価項目であるNPI-X Totalスコアがベースラインの2点、Week 2の1点から45点へと著しく悪化している。他の有効性評価項目 (ADAS-Cog, CIBIC+) の悪化と比較しても変動が大きい。この急激な悪化の理由（治験薬中止の影響、疾患の自然経過、他の要因）について考察が必要。
+        *   **根拠:** QS.QSTESTCD = 'NPTOT', QS.QSDY = 1, QS.QSSTRESN = 2; QS.QSDY = 11, QS.QSSTRESN = 1; QS.QSDY = 169, QS.QSSTRESN = 45。QS.QSTESTCD = 'ACTOT', QS.QSDY = 1, QS.QSSTRESN = 7; QS.QSDY = 11, QS.QSSTRESN = 5; QS.QSDY = 169, QS.QSSTRESN = 9。QS.QSTESTCD = 'CIBIC', QS.QSDY = 11, QS.QSSTRESN = 4; QS.QSDY = 169, QS.QSSTRESN = 5。
+    *   **指摘No.:** E-2
+        *   **重要度:** Minor
+        *   **内容:** DADスコアにおいて、ベースライン、Week 2、Retrieval間で一部項目の回答が Yes(1)/No(0) から Not Applicable(96) へ、あるいはその逆へと変化している (例: DAITM25, DAITM27, DAITM28, DAITM29, DAITM37, DAITM38, DAITM39)。NAの理由や評価の一貫性について確認が必要な場合がある。
+        *   **根拠:** QS.QSCAT = 'DISABILITY ASSESSMENT FOR DEMENTIA (DAD)' の各項目データ。
 
 ## 3. 疑義事項
 
 *   **医療機関へのクエリ:**
-    *   **クエリNo.:** Q-1 (関連指摘No.: M-1, M-2)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** Day 11に有害事象により治験中止となっていますが、中止の主たる原因となった有害事象名をご教示ください。また、Day 1発現の有害事象「MICTURITION URGENCY」(AESEQ=6) について、治験薬との関連性は「NONE」と報告されていますが、治験薬の薬理作用を考慮し、関連性評価について再度ご確認ください。
-        *   **判断理由:** 治験中止理由の明確化と、薬理作用から関連が疑われる有害事象の関連性評価の妥当性を確認するため。
+    *   **クエリNo.:** Q-1 (関連指摘No.: M-1, D-2, D-7)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "有害事象「ARTHRALGIA」(AESEQ=7) および「CELLULITIS」(AESEQ=8) がDay 7に発現し、Day 11に有害事象を理由に治験が中止されています。しかし、AEドメインではこれらの事象の治験薬との関連性(AEREL)が「NONE」と記録されています。治験中止の判断根拠となった有害事象と治験薬との関連性について、再度評価・確認し、必要であれば修正してください。RELRECではAESEQ=7が中止理由と関連付けられていますが、中止の直接的な原因となった事象を特定し、コメントで補足してください。"
+        *   **判断理由:** 治験中止理由となった有害事象の関連性評価は、安全性評価において重要であり、現在の記録には矛盾があるため。
         *   **判断根拠:**
-            *   DS.DSTERM = 'ADVERSE EVENT', DS.DSSTDY = 11
-            *   AE.AETERM = 'MICTURITION URGENCY', AE.AESTDY = 1, AE.AEREL = 'NONE'
-            *   プロトコル Section 3.9.3.2.1 (AE報告), Section 1 (薬剤情報)
+            *   AE.AEREL = 'NONE' (for AESEQ=7, 8)
+            *   DS.DSDECOD = 'ADVERSE EVENT', DS.DSSTDY = 11
+            *   RELREC (AE.AESEQ=7 と DS.DSSEQ=1 の関連)
+            *   プロトコル Section 3.9.3.2.1
     *   **クエリNo.:** Q-2 (関連指摘No.: P-1)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** 選択基準[5]を満たしたことを確認するため、スクリーニング前1年以内に実施されたCNSイメージング（CTまたはMRI）の結果がADと矛盾しないことを確認した記録をご提示ください。
-        *   **判断理由:** 選択基準遵守の確認のため。
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "プロトコル選択基準[5]では、登録前1年以内のアルツハイマー病と矛盾しないCNS画像所見が必要です。本症例の適格性確認において、CNS画像所見が確認された日付と結果（基準を満たすこと）をコメント等で追記してください。"
+        *   **判断理由:** 選択基準の遵守を確認するために必要な情報がデータ上欠落しているため。
         *   **判断根拠:**
+            *   データ上にCNS imagingに関する記録がない。
             *   プロトコル Section 3.4.2.1 [5]
-    *   **クエリNo.:** Q-3 (関連指摘No.: P-2, P-5)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** スクリーニング時(Visit 1または2)およびVisit 4のECGが実施・評価された記録をご提示ください。除外基準[16b]に該当する所見がなかったこと、およびVisit 4での評価が実施されたことをご確認ください。
-        *   **判断理由:** 除外基準遵守および評価スケジュール遵守の確認のため。
+    *   **クエリNo.:** Q-3 (関連指摘No.: P-2)
+        *   **重要度:** Major
+        *   **医療機関への問い合わせ文面:** "プロトコル除外基準[16b]では、スクリーニング時のECG所見に基づき除外が規定されています。本症例の適格性確認において、スクリーニングECGが実施され、除外基準に該当しないことが確認された日付と結果をコメント等で追記してください。"
+        *   **判断理由:** 除外基準の遵守を確認するために必要な情報がデータ上欠落しているため。
         *   **判断根拠:**
-            *   プロトコル Section 3.4.2.2 [16b], Attachment LZZT.1
-    *   **クエリNo.:** Q-4 (関連指摘No.: M-4)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **医療機関への問い合わせ文面:** Day 11の血液検査にてRBC低値、MCV高値、Anisocytosisが認められています。これらの所見の臨床的意義および原因について、担当医師の見解をご教示ください。
-        *   **判断理由:** 臨床検査値異常の臨床的意義を確認し、患者の安全性評価を行うため。
+            *   データ上にScreening ECGに関する記録がない。
+            *   プロトコル Section 3.4.2.2 [16b]
+    *   **クエリNo.:** Q-4 (関連指摘No.: D-3)
+        *   **重要度:** Minor
+        *   **医療機関への問い合わせ文面:** "有害事象「ERYTHEMA」(AESEQ=1, 4) および「PRURITUS」(AESEQ=2, 5) が、異なる記録日(AEDTC)で報告されています (Visit 2時点とVisit 4時点)。Visit 4時点の記録 (AESEQ=4, 5) は、Visit 2時点の記録 (AESEQ=1, 2) の追跡情報（転帰の更新）でしょうか、あるいは事象の再発でしょうか。記録内容をご確認の上、必要であれば修正またはコメントで補足してください。"
+        *   **判断理由:** 同一と思われる事象が複数レコードで報告されており、データの正確性と解釈を明確にするため。
         *   **判断根拠:**
-            *   LB.LBTESTCD = 'MCV', LB.LBDY = 11, LB.LBNRIND = 'HIGH'
-            *   LB.LBTESTCD = 'RBC', LB.LBDY = 11, LB.LBNRIND = 'LOW'
-            *   LB.LBTESTCD = 'ANISO', LB.LBDY = 11, LB.LBNRIND = 'ABNORMAL'
-    *   **クエリNo.:** Q-5 (関連指摘No.: D-1)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **医療機関への問い合わせ文面:** 有害事象「ERYTHEMA」(AESEQ 1, 4) および「PRURITUS」(AESEQ 2, 5) について、複数のレコードが存在します。Day 11に収集されたAESEQ 4, 5の記録は、Day 1に回復したイベントの最終的な転帰報告と思われますが、記録が正しいかご確認ください。必要であれば修正をお願いします。
-        *   **判断理由:** データの一貫性を確保するため。
+            *   AE.AETERM = 'ERYTHEMA', AE.AESEQ = 1, 4
+            *   AE.AETERM = 'PRURITUS', AE.AESEQ = 2, 5
+
+*   **内部確認事項 (問い合わせ不要):**
+    *   **確認事項No.:** I-1 (関連指摘No.: D-1)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** CMドメインのデータ構造が不適切（継続薬がVisitごとに記録）。データマネジメント担当部署にて、データクリーニング方針に基づき修正、またはデータハンドリング規約を確認する。正確な併用期間の特定が必要な解析では注意が必要。
+        *   **判断理由:** データ構造の問題であり、医療機関への問い合わせではなく内部での対応が必要。データ品質と解析への影響を考慮しMajorとした。
         *   **判断根拠:**
-            *   AE.AETERM = 'ERYTHEMA', AE.AESTDY = -5, AE.AESEQ in [1, 4]
-            *   AE.AETERM = 'PRURITUS', AE.AESTDY = -5, AE.AESEQ in [2, 5]
-    *   **クエリNo.:** Q-6 (関連指摘No.: P-3)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **医療機関への問い合わせ文面:** 除外基準[25]に関連し、既往歴の「BASAL CELL CARCINOMA」(2007年発症) について、プロトコル記載の例外規定（切除済み等）に該当することをご確認ください。
-        *   **判断理由:** 除外基準遵守の確認のため。
+            *   CMドメインのデータ構造
+            *   SDTM IG
+    *   **確認事項No.:** I-2 (関連指摘No.: D-4)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** CMドメインの多くの薬剤でCMDECOD, CMCLASが"UNCODED"。コーディング担当部署にてWHODRUG等を用いた標準コーディングを実施する。
+        *   **判断理由:** 標準的なデータ処理プロセスの一部であり、内部での対応が必要。
         *   **判断根拠:**
-            *   MH.MHTERM = 'BASAL CELL CARCINOMA', MH.MHSTDTC = '2007'
-            *   プロトコル Section 3.4.2.2 [25]
-    *   **クエリNo.:** Q-7 (関連指摘No.: P-4)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **医療機関への問い合わせ文面:** 除外基準[27b]に関連し、スクリーニング時(Day -13)のRBC低値(3.8 TI/L)について、臨床的に問題なく、除外基準に抵触しないと判断された根拠をご教示ください。
-        *   **判断理由:** 除外基準遵守の確認のため。
+            *   CM.CMDECOD = 'UNCODED', CM.CMCLAS = 'UNCODED' のレコード多数
+    *   **確認事項No.:** I-3 (関連指摘No.: M-2, P-3)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** スクリーニング時のRBC低値について、除外基準[27b]に関連して臨床的に有意でないと判断されたか確認。データ上記録はないが、登録されていることから、治験責任医師により問題なしと判断された可能性が高い。記録として残す。Week 2でのMCV高値と合わせた貧血の可能性について、医学的レビュー担当者内で情報共有する。
+        *   **判断理由:** 登録されている事実から大きな問題はないと推測されるが、基準値逸脱と医師の判断文書化の要件について記録に残す。
         *   **判断根拠:**
             *   LB.LBTESTCD = 'RBC', LB.LBDY = -13, LB.LBNRIND = 'LOW'
             *   プロトコル Section 3.4.2.2 [27b]
-    *   **クエリNo.:** Q-8 (関連指摘No.: D-4)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **医療機関への問い合わせ文面:** 併用薬「PREMARIN」(CMSEQ 2他) および「PROVERA」(CMSEQ 3他) について、Dose Units (CMDOSU) および Dosing Frequency (CMDOSFRQ) が欠損しています。情報をご提供ください。
-        *   **判断理由:** データの完全性を向上させるため。
+    *   **確認事項No.:** I-4 (関連指摘No.: P-4)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** PREMARIN使用に関する除外基準[31b][v]（用量安定性）の確認記録がない。1996年から使用されており、安定している可能性が高いと推測される。記録として残す。
+        *   **判断理由:** 長期使用薬であり問題ない可能性が高いが、確認記録がない点を記録。
         *   **判断根拠:**
-            *   CM.CMTRT = 'PREMARIN', CM.CMDOSU = '', CM.CMDOSFRQ = ''
-            *   CM.CMTRT = 'PROVERA', CM.CMDOSU = '', CM.CMDOSFRQ = ''
-
-*   **内部確認事項 (問い合わせ不要):**
-    *   **確認事項No.:** I-1 (関連指摘No.: M-3)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** AE "LOCALISED INFECTION" と MH "LOCALISED INFECTION" の重症度評価が異なる (AE: Moderate, MH: Mild)。AE報告時の評価が優先されることが多いが、データ入力時の不整合の可能性も考慮。現時点では修正依頼はせず、記録として残す。
-        *   **判断理由:** 臨床的な影響は小さいと考えられ、データの解釈に大きな支障はないため。
+            *   CM.CMTRT = 'PREMARIN', CM.CMSTDTC = '1996'
+            *   プロトコル Section 3.4.2.2 [31b][v]
+    *   **確認事項No.:** I-5 (関連指摘No.: E-1)
+        *   **重要度:** Major
+        *   **疑義事項/確認内容:** Retrieval Visit時のNPI-Xスコアの著明な悪化について、有効性評価チームおよびメディカルモニターで情報共有し、治験薬中止の影響や疾患進行との関連について考察する。
+        *   **判断理由:** 有効性評価の解釈に影響を与える可能性のある重要な変化であり、内部での議論が必要。
         *   **判断根拠:**
-            *   AE.AETERM = 'LOCALISED INFECTION', AE.AESEV = 'MODERATE'
-            *   MH.MHTERM = 'LOCALISED INFECTION', MH.MHSEV = 'MILD'
-    *   **確認事項No.:** I-2 (関連指摘No.: D-2)
-        *   **臨床試験結果/安全性への影響度合い:** Major
-        *   **疑義事項/確認内容:** AEドメインのMedDRAコーディング関連変数が欠損している。コーディング担当部署に連絡し、コーディング作業の状況を確認し、完了を依頼する。
-        *   **判断理由:** 標準化された有害事象データの集計・分析に必須であり、データの品質と信頼性に影響するため。
+            *   QS.QSTESTCD = 'NPTOT' のスコア推移
+    *   **確認事項No.:** I-6 (関連指摘No.: D-5, D-6)
+        *   **重要度:** Minor
+        *   **疑義事項/確認内容:** CMドメインにおけるCMDOSFRQの欠損、CMSTDY/CMENDYの欠損について、データマネジメント担当部署で確認し、可能であれば修正する。
+        *   **判断理由:** データ完全性のための内部確認事項。
         *   **判断根拠:**
-            *   AEドメインの AELLT, AEDECOD 等の変数が欠損
-    *   **確認事項No.:** I-3 (関連指摘No.: D-3)
-        *   **臨床試験結果/安全性への影響度合い:** Minor
-        *   **疑義事項/確認内容:** CMドメインの薬剤コーディング(CMDECOD)、適応症(CMINDC)、分類(CMCLAS)の入力が不十分。データマネジメントプロセス内で、可能な範囲での情報補完や標準化を検討する。
-        *   **判断理由:** データの品質向上と、将来的な集計・分析の精度向上のため。
-        *   **判断根拠:**
-            *   CMドメインの該当変数列に欠損または 'UNCODED' が多数存在
+            *   CMドメインの欠損値
