@@ -159,7 +159,7 @@ User Prompt
 |日付（YYYY年MM月DD日）|Study Day (Visit)|イベント内容|
 |:---|:---|:---|
 |YYYY年MM月DD日|Day XX (Visit 1)|イベント内容 (例: 有害事象「頭痛」(Severe) 発現)|
-|YYYY年MM月DD日|Day YY (N/A|イベント内容 (例: ALT値上昇 (Grade 1, 基準値上限の1.5倍))|
+|YYYY年MM月DD日|Day YY (N/A)|イベント内容 (例: ALT値上昇 (Grade 1, 基準値上限の1.5倍))|
 |YYYY年MM月DD日|Day ZZ (Visit 2)|イベント内容 (例: RECIST評価: Stable Disease (SD))|
 |... (時系列で記載)|...|...|
 
